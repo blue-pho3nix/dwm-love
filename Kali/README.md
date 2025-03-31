@@ -2,7 +2,7 @@
 
 ## Instructions:
 1. Pick a theme
-2. Goto the theme's folder for isntall instructions
+2. Goto the theme's folder for install instructions
 
 ## Themes:
 ### black-powershell
