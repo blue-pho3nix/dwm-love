@@ -90,9 +90,6 @@ configure_system() {
 	# Enable parallel downloads
 	echo "Acquire::Queue-Mode \"access\";" > /etc/apt/apt.conf.d/90parallel
 
-	# Set sudo without password
-	echo "%sudo ALL=(ALL) NOPASSWD: ALL" >/etc/sudoers.d/nopasswd
-
 	# Blacklist beep sound
 	echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 	rmmod pcspkr
