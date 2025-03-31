@@ -136,6 +136,7 @@ install_nerd_fonts() {
 
 
 finalize() {
+        sleep 10
 	whiptail --title 'Installation Almost Complete' --msgbox 'Press enter.' 7 60
 }
 
