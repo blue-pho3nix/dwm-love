@@ -106,7 +106,6 @@ set_background() {
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u "$name" sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        sudo rm /home/$name/.zshrc
 }
 
 install_nerd_fonts() {
