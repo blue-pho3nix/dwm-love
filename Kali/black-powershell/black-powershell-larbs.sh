@@ -141,11 +141,6 @@ install_ohmyzsh() {
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 }
 
-cleanup() {
-        rm /home/$name/FiraCode.zip 
-	rm /home/$name/NerdFontsSymbolsOnly.zip
-}
-
 finalize() {
 	whiptail --title 'Installation Complete' --msgbox 'Installation complete!\\n\\nLog in as $name using dwm.' 10 60
 }
@@ -166,5 +161,4 @@ setup_dwm
 set_background
 install_nerd_fonts
 install_ohmyzsh
-cleanup
 finalize
