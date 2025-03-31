@@ -86,8 +86,15 @@ configure_system() {
 EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 }
 
+
+install_nerd_fonts() {
+	whiptail --infobox "Installing Nerd Fonts..." 7 60
+	echo "37" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+}
+
+
 setup_dwm() {
-	whiptail --infobox "Setting up DWM..."
+	whiptail --infobox "Setting up DWM..." 7 60
 	cd /home/$name/.local/src/dwmblocks
         sudo make clean install
 	cd /home/$name/.local/src/dwm
@@ -96,22 +103,20 @@ setup_dwm() {
         sudo make clean install
 	cd /home/$name/.local/src/st
         sudo make clean install
+	cd
 }
 
 set_background() {
-	whiptail --infobox "Setting background..."
-	setbg ~/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
+	whiptail --infobox "Setting background..." 7 60
+	/home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
 }
 
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
-	sudo -u "$name" sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-}
-
-install_nerd_fonts() {
-	whiptail --infobox "Installing Nerd Fonts..." 7 60
-	# Automatically select option 37 to install Nerd Fonts
-	echo "37" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        rm /home/$name/.zshrc
+	mv /home/$name/.oh-my-zsh/* /home/$name/.config/zsh/
+	source  ~/.config/zsh/.zshrc
 }
 
 
@@ -129,8 +134,8 @@ adduserandpass
 clone_dotfiles
 set_shell
 configure_system
+install_nerd_fonts
 setup_dwm
 set_background
 install_ohmyzsh
-install_nerd_fonts
 finalize
