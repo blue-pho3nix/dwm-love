@@ -141,7 +141,7 @@ install_ohmyzsh() {
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 }
 
-cleanup {
+cleanup() {
         rm /home/$name/FiraCode.zip rm /home/$name/NerdFontsSymbolsOnly.zip
 }
 
