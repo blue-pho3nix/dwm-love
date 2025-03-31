@@ -57,6 +57,8 @@ clone_dotfiles() {
 	sudo -u "$name" git clone --depth 1 "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
+        rm -rf /home/$name/.git
+	rm /home/$name/README.md
 }
 
 set_shell() {
@@ -90,7 +92,10 @@ EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 
 install_nerd_fonts() {
 	whiptail --infobox "Installing Nerd Fonts..." 7 60
-	echo "18" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+	echo "37" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+        echo "14" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+	rm FiraCode.zip NerdFontsSymbolsOnly.zip
+        fc-cache -fv
 }
 
 
@@ -116,8 +121,7 @@ install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         rm /home/$name/.zshrc
-	mv /home/$name/.oh-my-zsh/* /home/$name/.config/zsh/.oh-my-zsh
-	source  ~/.config/zsh/.zshrc
+	mv /home/$name/zsh/.zshrc /home/$name/.zshrc
 }
 
 
