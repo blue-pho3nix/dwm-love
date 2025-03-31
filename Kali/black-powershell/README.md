@@ -1,4 +1,4 @@
-# Install Black Powershell
+# Install Black Powershell on Kali
 
 ![image](https://github.com/user-attachments/assets/b1c1bb27-52ed-4f30-a8c0-925f596df899)
 
