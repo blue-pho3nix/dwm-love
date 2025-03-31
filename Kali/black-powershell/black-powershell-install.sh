@@ -158,4 +158,3 @@ setup_dwm
 set_background
 install_nerd_fonts
 install_ohmyzsh
-
