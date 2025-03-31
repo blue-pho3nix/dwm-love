@@ -130,6 +130,7 @@ adduserandpass
 clone_dotfiles
 set_shell
 configure_system
+setup_dwm
 set_background
 install_ohmyzsh
 install_nerd_fonts
