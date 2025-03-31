@@ -119,7 +119,7 @@ setup_dwm() {
         sudo make clean install
 	cd /home/$name/.local/src/st
         sudo make clean install
-	cd /home/$name/
+	cd
 }
 
 set_background() {
@@ -131,21 +131,20 @@ install_nerd_fonts() {
 	whiptail --infobox "Installing Nerd Fonts..." 7 60
 	echo "37" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
         echo "14" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
-        fc-cache -fv
 }
+
+
+
+finalize() {
+	whiptail --title 'Installation Complete' --msgbox 'Installation complete after ohmyzsh is installed!\\n\\nLog in as $name using dwm.' 10 60
+}
+
 
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-}
-
-finalize() {
-        sleep 10
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
-	whiptail --title 'Installation Complete' --msgbox 'Installation complete!\\n\\nLog in as $name using dwm.' 10 60
 }
-
-
 
 ### MAIN SCRIPT ###
 [ "$EUID" -ne 0 ] && error "Please run as root."
@@ -160,5 +159,5 @@ configure_system
 setup_dwm
 set_background
 install_nerd_fonts
-install_ohmyzsh
 finalize
+install_ohmyzsh
