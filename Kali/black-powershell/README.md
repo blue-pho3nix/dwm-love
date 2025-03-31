@@ -1,0 +1,17 @@
+# Install Black Powershell
+![image](https://github.com/user-attachments/assets/b1c1bb27-52ed-4f30-a8c0-925f596df899)
+
+
+1. `wget` script
+
+```
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/Kali/black-powershell/black-powershell-larbs.sh
+```
+2. Run script
+
+```
+sudo bash black-powershell-larbs.sh
+```
+
+3. Log out and login using `DWM`
+![image](https://github.com/user-attachments/assets/962e46d6-903b-499b-a6b9-9ae2094cf3a4)
