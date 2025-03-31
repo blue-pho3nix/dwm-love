@@ -136,7 +136,7 @@ install_nerd_fonts() {
 
 
 finalize() {
-	whiptail --title 'Installation Almost Complete' --msgbox 'Installation complete after ohmyzsh is installed! Press enter.' 7 60
+	whiptail --title 'Installation Almost Complete' --msgbox 'Press enter.' 7 60
 }
 
 
