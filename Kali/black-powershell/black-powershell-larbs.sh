@@ -7,7 +7,6 @@
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/black-powershell-dwm-rice.git"
 export TERM=ansi
-wallpaper="$HOME/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg"
 
 ### FUNCTIONS ###
 
@@ -91,7 +90,7 @@ EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 
 install_nerd_fonts() {
 	whiptail --infobox "Installing Nerd Fonts..." 7 60
-	echo "37" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+	echo "18" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
 }
 
 
