@@ -9,10 +9,6 @@ export TERM=ansi
 
 ### FUNCTIONS ###
 
-installpkg() {
-	apt-get install -y "$1" >/dev/null 2>&1
-}
-
 error() {
 	printf "%s\n" "$1" >&2
 	exit 1
@@ -71,7 +67,7 @@ installbase() {
 
 clone_dotfiles() {
 	whiptail --infobox "Cloning dotfiles..." 7 60
-        sudo -u "$name" git clone --depth 1 -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"	
+        sudo -u "$name" git clone -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"	
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
         rm -rf "/home/$name/.git"
