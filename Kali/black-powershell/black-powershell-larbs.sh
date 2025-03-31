@@ -139,13 +139,14 @@ install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         rm /home/$name/.zshrc
-	cp /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
+	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 }
-
 
 finalize() {
-	whiptail --title "Installation Complete" --msgbox "Installation complete!\\n\\nLog in as $name using dwm." 10 60
+	whiptail --title 'Installation Complete' --msgbox 'Installation complete!\\n\\nLog in as $name using dwm.' 10 60
 }
+
+
 
 ### MAIN SCRIPT ###
 [ "$EUID" -ne 0 ] && error "Please run as root."
@@ -157,8 +158,8 @@ adduserandpass
 clone_dotfiles
 set_shell
 configure_system
-install_nerd_fonts
 setup_dwm
 set_background
+install_nerd_fonts
 install_ohmyzsh
 finalize
