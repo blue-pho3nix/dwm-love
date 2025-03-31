@@ -22,3 +22,9 @@ sudo bash black-powershell-larbs.sh
 
 ![image](https://github.com/user-attachments/assets/35a1a856-4789-4bf9-8c2c-8700093652b9)
 ![image](https://github.com/user-attachments/assets/f32bb50f-72d9-4749-b3c5-def740e9582c)
+
+If you just want the config files, you can get em here: https://github.com/blue-pho3nix/black-powershell-dwm-rice.
+
+```
+git clone https://github.com/blue-pho3nix/black-powershell-dwm-rice.git
+```
