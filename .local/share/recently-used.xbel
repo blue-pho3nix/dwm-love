@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/kali/.xprofile" added="2025-03-13T08:13:12.605952Z" modified="2025-03-13T08:13:14.489786Z" visited="2025-03-13T08:13:12.605954Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-03-13T08:13:14.489785Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kali/Downloads/calcurse-4.8.1.tar.gz" added="2025-03-13T08:58:56.305285Z" modified="2025-03-13T08:58:56.305288Z" visited="2025-03-13T08:58:56.305286Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-13T08:58:56.305287Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.local/bin/alacritty-here.sh" added="2025-03-13T11:47:28.276052Z" modified="2025-03-13T12:27:07.578446Z" visited="2025-03-13T11:47:28.276052Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 25:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-13T12:27:07.578444Z" count="6"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-13T12:26:53.069725Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.config/alacritty/alacritty.toml" added="2025-03-13T11:55:32.674003Z" modified="2025-03-13T11:56:51.118710Z" visited="2025-03-13T11:55:32.674004Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 7:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-13T11:56:51.118708Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Downloads/code_1.98.1-1741624510_amd64.deb" added="2025-03-13T12:35:12.728533Z" modified="2025-03-13T12:35:12.728538Z" visited="2025-03-13T12:35:12.728534Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;LibreWolf %u&apos;" modified="2025-03-13T12:35:12.728536Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.local/bin/statusbar/sb-tun0" added="2025-03-13T12:59:55.632653Z" modified="2025-03-13T13:07:51.764728Z" visited="2025-03-13T12:59:55.632653Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 17:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-13T13:07:51.764727Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.local/src/dmenu/config.h" added="2025-03-15T04:32:39.959034Z" modified="2025-03-15T04:34:06.790732Z" visited="2025-03-15T04:32:39.959035Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 8:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-15T04:32:44.711555Z" count="2"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-15T04:34:06.790729Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.local/bin/sysact" added="2025-03-15T04:34:24.420452Z" modified="2025-03-15T04:36:49.066300Z" visited="2025-03-15T04:34:24.420453Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 20:43;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-15T04:36:49.066298Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.local/bin/statusbar/sb-clock" added="2025-03-15T04:38:58.181293Z" modified="2025-03-15T04:40:09.254806Z" visited="2025-03-15T04:38:58.181294Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 7:26;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-15T04:40:09.254804Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.local/bin/statusbar/sb-help-icon" added="2025-03-15T04:40:11.698612Z" modified="2025-03-15T04:40:11.698615Z" visited="2025-03-15T04:40:11.698612Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-15T04:40:11.698613Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Downloads/cacert.der" added="2025-03-16T23:57:24.603452Z" modified="2025-03-16T23:57:43.817100Z" visited="2025-03-16T23:57:24.603453Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-x509-ca-cert"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-16T23:57:43.817097Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/10.10.110.100/wp-config.php.swp" added="2025-03-17T00:30:34.014148Z" modified="2025-03-17T00:30:34.378771Z" visited="2025-03-17T00:30:34.014150Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-17T00:30:34.378762Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/10.10.110.100/malicious.zip" added="2025-03-17T01:17:05.766176Z" modified="2025-03-17T01:19:20.658791Z" visited="2025-03-17T01:17:05.766178Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-17T01:19:20.658789Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/ctf/cyberap/rev_singlestep.zip" added="2025-03-24T22:20:14.063510Z" modified="2025-03-24T22:20:14.314027Z" visited="2025-03-24T22:20:14.063511Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-03-24T22:20:14.314025Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/useful/OpenJDK11U-jdk_x64_linux_hotspot_11.0.26_4.tar.gz" added="2025-03-24T22:34:48.376197Z" modified="2025-03-24T22:34:48.626629Z" visited="2025-03-24T22:34:48.376198Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-03-24T22:34:48.626627Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/ghidraRun" added="2025-03-24T22:44:07.673586Z" modified="2025-03-24T22:44:11.928547Z" visited="2025-03-24T22:44:07.673587Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-03-24T22:44:07.673589Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-24T22:44:11.928544Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/.wallpaper/david-clode-P6j0WytkqPg-unsplash.jpg" added="2025-03-25T00:43:05.612722Z" modified="2025-03-25T23:16:54.942592Z" visited="2025-03-25T00:43:05.612722Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-25T02:08:37.058876Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-25T23:16:54.942591Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/challenges/david-clode-5pXwpRw6O8c-unsplash.jpg" added="2025-03-25T01:34:55.768043Z" modified="2025-03-25T01:55:38.080198Z" visited="2025-03-25T01:34:55.768044Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-25T01:55:38.080196Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/.wallpaper/david-clode-5pXwpRw6O8c-unsplash.jpg" added="2025-03-25T23:17:00.893301Z" modified="2025-03-25T23:17:00.893307Z" visited="2025-03-25T23:17:00.893302Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-25T23:17:00.893304Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/10.10.110.100/webmin-1.900.zip" added="2025-03-27T18:36:47.830587Z" modified="2025-03-27T18:36:55.266835Z" visited="2025-03-27T18:36:47.830588Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-27T18:36:55.266833Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/webmin-1.900.zip" added="2025-03-27T18:41:29.331417Z" modified="2025-03-27T18:41:29.752681Z" visited="2025-03-27T18:41:29.331418Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2025-03-27T18:41:29.752678Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/.cache/.fr-AfFguc/webmin/robots.txt" added="2025-03-27T18:41:58.822361Z" modified="2025-03-27T19:36:25.046431Z" visited="2025-03-27T18:41:58.822362Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 1:11;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-27T19:36:25.046429Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/shell.php" added="2025-03-27T23:06:47.219249Z" modified="2025-03-27T23:19:04.214287Z" visited="2025-03-27T23:06:47.219250Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-27T23:19:04.214286Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/shell2.php" added="2025-03-27T23:20:42.153008Z" modified="2025-03-27T23:20:42.153011Z" visited="2025-03-27T23:20:42.153008Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-27T23:20:42.153009Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/maintenanceservice.exe" added="2025-03-27T23:50:46.588093Z" modified="2025-03-27T23:50:46.588097Z" visited="2025-03-27T23:50:46.588094Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-27T23:50:46.588095Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/shell4.php" added="2025-03-27T23:53:50.142986Z" modified="2025-03-27T23:53:50.142990Z" visited="2025-03-27T23:53:50.142987Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-27T23:53:50.142988Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/shell6.php" added="2025-03-27T23:55:58.124995Z" modified="2025-03-27T23:55:58.124999Z" visited="2025-03-27T23:55:58.124996Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-27T23:55:58.124997Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/maintenanceservice2.exe" added="2025-03-28T00:53:43.874570Z" modified="2025-03-28T00:53:44.434511Z" visited="2025-03-28T00:53:43.874571Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-28T00:53:44.434506Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/prolabs/dante/nc64.exe" added="2025-03-28T00:54:21.666966Z" modified="2025-03-28T00:54:22.127299Z" visited="2025-03-28T00:54:21.666966Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-msdownload"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2025-03-28T00:54:22.127296Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/cpu_documentation.pdf" added="2025-03-28T21:44:43.725189Z" modified="2025-03-28T21:44:43.725192Z" visited="2025-03-28T21:44:43.725190Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-03-28T21:44:43.725190Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/something.zip" added="2025-03-28T22:34:30.372753Z" modified="2025-03-28T22:34:30.372756Z" visited="2025-03-28T22:34:30.372754Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="wireshark" exec="&apos;wireshark %u&apos;" modified="2025-03-28T22:34:30.372755Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/htb/coolzip.zip" added="2025-03-28T22:35:38.858359Z" modified="2025-03-28T22:38:25.240587Z" visited="2025-03-28T22:35:38.858359Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="wireshark" exec="&apos;wireshark %u&apos;" modified="2025-03-28T22:38:25.240585Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/Documents/ctf/flag.txt" added="2025-03-29T15:16:08.255051Z" modified="2025-03-29T15:16:12.581552Z" visited="2025-03-29T15:16:08.255051Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-29T15:16:12.581550Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/blue/larbs.sh.1" added="2025-03-30T20:42:08.270140Z" modified="2025-03-30T20:42:08.279745Z" visited="2025-03-30T20:42:08.270141Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-troff-man"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-03-30T20:42:08.279743Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

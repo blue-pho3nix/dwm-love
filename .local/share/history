@@ -1,0 +1,35 @@
+: 1741861657:0;ls -la
+: 1741861664:0;mv ~/.zshrc .
+: 1741861665:0;ls
+: 1741861667:0;ls -la
+: 1741861672:5;vim ~/.zshrc
+: 1741861681:56;vim .zshrc
+: 1741861749:0;source ~/.config/zsh/.zshrc
+: 1741861802:0;mv ~/.oh-my-zsh/* ~/.config/zsh/.oh-my-zsh/
+: 1741861814:0;mv ~/.oh-my-zsh/* ~/.config/zsh/
+: 1741861824:0;ls -la ~/.config/zsh
+: 1741861840:0;thunar
+: 1741861884:0;vim .zshrc
+: 1741861937:0;source ~/.config/zsh/.zshrc
+: 1741861969:0;cd ~/.local/src/st/config.h
+: 1741861976:0;cd ~/.local/src/st/
+: 1741861982:0;vim config.h
+: 1741862099:0;sudo make clean install
+: 1741862233:0;sudo su
+: 1741867056:0;n
+: 1741867095:0;mv ~/.zshrc ~/.config/zsh/.zshrc
+: 1741867098:0;n
+: 1741867113:0; ~/.config/zsh/.zshrc
+: 1741867127:0;cat  ~/.config/zsh/.zshrc
+: 1741867147:0;source  ~/.config/zsh/.zshrc
+: 1741867179:0;sudo apt-get install dconf-cli uuid-runtime
+: 1741867331:0;bash -c  "$(wget -qO- https://git.io/vQgMr)" 
+: 1741867396:0;which $TERMINAL
+: 1741867539:0;echo $TERMINAL
+: 1741867573:0;vim ~/.local/src/dwm/config.h
+: 1741867783:0;vim ~/.local/src/dwm/
+: 1741867811:0;cd ~/.local/src.dwm
+: 1741867829:0;cd ~/.local/src/dwm/
+: 1741867856:0;vim config.h
+: 1741868029:0;m
+: 1741868066:0;vim config.h

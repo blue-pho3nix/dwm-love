@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=PowerShell command-line shell and .NET REPL
+Encoding=UTF-8
+Exec=/usr/share/kali-menu/exec-in-shell "pwsh"
+Icon=kali-pwsh
+StartupNotify=false
+Terminal=true
+Type=Application
+X-Kali-Package=powershell
+Name=PowerShell
+Categories=System;Utility;
+X-XFCE-Source=file:///usr/share/applications/kali-pwsh.desktop

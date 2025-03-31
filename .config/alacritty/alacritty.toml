@@ -1,0 +1,53 @@
+[window]
+opacity = 0.8
+dynamic_title = true
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 12.0
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFF4E"
+
+[colors.cursor]
+cursor = "#68D4F1"
+
+[colors.normal]
+black = "#4F4F4F"
+red = "#FF6C60"
+green = "#A8FF60"
+yellow = "#FFFFB6"
+blue = "#96CBFE"
+magenta = "#FF73FD"
+cyan = "#C6C5FE"
+white = "#EEEEEE"
+
+[colors.bright]
+black = "#7C7C7C"
+red = "#FFB6B0"
+green = "#CEFFAC"
+yellow = "#FFFFCC"
+blue = "#B5DCFF"
+magenta = "#FF9CFE"
+cyan = "#DFDFFE"
+white = "#FFFFFF"
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[scrolling]
+history = 40000
+
+[mouse]
+hide_when_typing = true
+
+[terminal.shell]
+program = "/bin/zsh"
+args = [
+    "--login",
+]

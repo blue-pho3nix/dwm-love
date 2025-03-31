@@ -1,0 +1,60 @@
+   209.4ms (setup:1108): 2025-03-22 23:45:09
+   209.6ms (setup:1109): /usr/bin/pipx install tensorflow-gpu==2
+   209.7ms (setup:1110): pipx version is 1.7.1
+   209.7ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   211.8ms (package_name_from_spec:378): Determined package name: tensorflow-gpu
+   211.8ms (package_name_from_spec:379): Package name determined in 0.0s
+   212.1ms (create_venv:164): Creating virtual environment
+   213.2ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --without-pip /home/blue/.local/share/pipx/venvs/tensorflow-gpu
+   287.5ms (run_subprocess:195): stdout:
+   287.7ms (run_subprocess:197): stderr:
+   287.8ms (run_subprocess:198): returncode: 0
+   289.1ms (run_subprocess:175): running <checking pip's availability>
+   315.9ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f4132733050>, origin='/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+   316.1ms (run_subprocess:198): returncode: 0
+   316.6ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   347.2ms (run_subprocess:195): stdout: /home/blue/.local/share/pipx/venvs/tensorflow-gpu/lib/python3.13/site-packages
+   347.4ms (run_subprocess:198): returncode: 0
+   348.0ms (run_subprocess:175): running /home/blue/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   377.3ms (run_subprocess:195): stdout: /home/blue/.local/share/pipx/shared/lib/python3.13/site-packages
+   377.5ms (run_subprocess:198): returncode: 0
+   378.2ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python --version
+   382.3ms (run_subprocess:195): stdout: Python 3.13.2
+   382.4ms (run_subprocess:197): stderr:
+   382.5ms (run_subprocess:198): returncode: 0
+   382.8ms (_parsed_package_to_package_or_url:139): cleaned package spec: tensorflow-gpu==2
+   382.9ms (install_package:247): Installing tensorflow-gpu from spec 'tensorflow-gpu==2'
+   384.2ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -m pip --no-input install tensorflow-gpu==2
+  1050.1ms (run_subprocess:198): returncode: 1
+  1050.4ms (subprocess_post_check_handle_pip_error:332): '/home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -m pip --no-input install tensorflow-gpu==2' failed
+  1051.2ms (subprocess_post_check_handle_pip_error:347): Fatal error from pip prevented installation. Full pip output in file:
+    /home/blue/.local/state/pipx/log/cmd_2025-03-22_23.45.09_pip_errors.log
+  1053.9ms (rmdir:56): removing directory /home/blue/.local/share/pipx/venvs/tensorflow-gpu
+  1055.6ms (cli:1179): PipxError: Error installing tensorflow-gpu from spec 'tensorflow-gpu==2'.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 1176, in cli
+    return run_pipx_command(parsed_pipx_args, subparsers)
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 282, in run_pipx_command
+    return commands.install(
+           ~~~~~~~~~~~~~~~~^
+        None,
+        ^^^^^
+    ...<13 lines>...
+        python_flag_passed=python_flag_passed,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/commands/install.py", line 99, in install
+    venv.install_package(
+    ~~~~~~~~~~~~~~~~~~~~^
+        package_name=package_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        suffix=suffix,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/venv.py", line 265, in install_package
+    raise PipxError(f"Error installing {full_package_description(package_name, package_or_url)}.")
+pipx.util.PipxError: Error installing tensorflow-gpu from spec 'tensorflow-gpu==2'.
+  1057.7ms (cli:1187): pipx finished.

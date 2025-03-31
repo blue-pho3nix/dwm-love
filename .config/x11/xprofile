@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# This file runs when a DM logs you into a graphical session.
+# If you use startx/xinit like a Chad, this file will also be sourced.
+
+xrandr --dpi 96		# Set DPI. User may want to use a larger number for larger screens.
+setbg &			# set the background with the `setbg` script
+#xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources & xrdbpid=$!	# Uncomment to use Xresources colors/settings on startup
+
+
+
+autostart="dunst diodon unclutter remapd xcompmgr.sh vmware-user"
+
+for program in $autostart; do
+	pidof -sx "$program" || "$program" &
+done >/dev/null 2>&1
+
+(sleep 1 && dwmblocks.sh) &
+
+# Ensure that xrdb has finished running before moving on to start the WM/DE.
+[ -n "$xrdbpid" ] && wait "$xrdbpid"
+
+liquidctl --match kraken set logo color fading "hsv(0,0,0)" "hsv(0,0,0)"
+liquidctl --match kraken set ring color fading "hsv(0,0,0)" "hsv(0,0,0)"

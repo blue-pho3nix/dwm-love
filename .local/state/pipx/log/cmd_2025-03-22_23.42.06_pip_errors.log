@@ -1,0 +1,101 @@
+PIP STDOUT
+----------
+Collecting tensorflow-gpu
+  Using cached tensorflow-gpu-2.12.0.tar.gz (2.6 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+
+PIP STDERR
+----------
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [75 lines of output]
+      Traceback (most recent call last):
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/requirements.py", line 36, in __init__
+          parsed = _parse_requirement(requirement_string)
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/_parser.py", line 62, in parse_requirement
+          return _parse_requirement(Tokenizer(source, rules=DEFAULT_RULES))
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/_parser.py", line 80, in _parse_requirement
+          url, specifier, marker = _parse_requirement_details(tokenizer)
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/_parser.py", line 124, in _parse_requirement_details
+          marker = _parse_requirement_marker(
+              tokenizer,
+          ...<5 lines>...
+              ),
+          )
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/_parser.py", line 145, in _parse_requirement_marker
+          tokenizer.raise_syntax_error(
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+              f"Expected end or semicolon (after {after})",
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              span_start=span_start,
+              ^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/_tokenizer.py", line 167, in raise_syntax_error
+          raise ParserSyntaxError(
+          ...<3 lines>...
+          )
+      packaging._tokenizer.ParserSyntaxError: Expected end or semicolon (after name and no valid version specifier)
+          python_version>"3.7"
+                        ^
+      
+      The above exception was the direct cause of the following exception:
+      
+      Traceback (most recent call last):
+        File "/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 334, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 304, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 522, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 320, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 40, in <module>
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/__init__.py", line 116, in setup
+          _install_setup_requires(attrs)
+          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/__init__.py", line 87, in _install_setup_requires
+          dist.parse_config_files(ignore_option_errors=True)
+          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/dist.py", line 759, in parse_config_files
+          self._finalize_requires()
+          ~~~~~~~~~~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/dist.py", line 383, in _finalize_requires
+          self._normalize_requires()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/dist.py", line 401, in _normalize_requires
+          self.install_requires = list_(map(str, _reqs.parse(install_requires)))
+                                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-c8k34ucu/overlay/lib/python3.13/site-packages/setuptools/_vendor/packaging/requirements.py", line 38, in __init__
+          raise InvalidRequirement(str(e)) from e
+      packaging.requirements.InvalidRequirement: Expected end or semicolon (after name and no valid version specifier)
+          python_version>"3.7"
+                        ^
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
