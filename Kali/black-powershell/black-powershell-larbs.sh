@@ -86,6 +86,18 @@ configure_system() {
 EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 }
 
+setup_dwm() {
+	whiptail --infobox "Setting up DWM..."
+	cd /home/$name/.local/src/dwmblocks
+        sudo make clean install
+	cd /home/$name/.local/src/dwm
+        sudo make clean install
+	cd /home/$name/.local/src/dmenu
+        sudo make clean install
+	cd /home/$name/.local/src/st
+        sudo make clean install
+}
+
 set_background() {
 	whiptail --infobox "Setting background..."
 	setbg ~/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
@@ -94,6 +106,7 @@ set_background() {
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u "$name" sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        sudo rm /home/$name/.zshrc
 }
 
 install_nerd_fonts() {
