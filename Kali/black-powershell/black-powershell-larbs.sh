@@ -110,7 +110,7 @@ setup_dwm() {
 
 set_background() {
 	whiptail --infobox "Setting background..." 7 60
-	/home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
+	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
 }
 
 install_ohmyzsh() {
