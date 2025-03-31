@@ -6,7 +6,7 @@
 1. `wget` script
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/Kali/black-powershell/black-powershell-larbs.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/Kali/black-powershell/black-powershell-install.sh
 ```
 2. Run script
 
