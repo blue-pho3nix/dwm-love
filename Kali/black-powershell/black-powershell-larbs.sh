@@ -46,7 +46,36 @@ adduserandpass() {
 
 installbase() {
 	whiptail --infobox "Installing base packages..." 7 60
-	sudo apt-get update
+
+        # File to modify
+        SOURCES_FILE="/etc/apt/sources.list"
+
+        # Lines to add
+        LINE1="# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/"
+        LINE2="#deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
+        LINE3="deb https://mirror.math.princeton.edu/pub/kali/ kali-rolling main contrib non-free non-free-firmware"
+        LINE4="# Additional line for source packages"
+        LINE5="# deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
+
+        # Check if lines already exist in the file, and add them if not
+        if ! grep -Fxq "$LINE1" "$SOURCES_FILE"; then
+                echo "$LINE1" | sudo tee -a "$SOURCES_FILE" > /dev/null
+        fi
+        if ! grep -Fxq "$LINE2" "$SOURCES_FILE"; then
+                echo "$LINE2" | sudo tee -a "$SOURCES_FILE" > /dev/null
+        fi
+        if ! grep -Fxq "$LINE3" "$SOURCES_FILE"; then
+                echo "$LINE3" | sudo tee -a "$SOURCES_FILE" > /dev/null
+        fi
+        if ! grep -Fxq "$LINE4" "$SOURCES_FILE"; then
+                echo "$LINE4" | sudo tee -a "$SOURCES_FILE" > /dev/null
+        fi
+        if ! grep -Fxq "$LINE5" "$SOURCES_FILE"; then
+                echo "$LINE5" | sudo tee -a "$SOURCES_FILE" > /dev/null
+        fi
+        echo "Lines added (if not already present) to $SOURCES_FILE"
+	
+        sudo apt-get update
 	sudo apt-get install -y lolcat extrepo libxft-dev libharfbuzz-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev whiptail curl wget sudo zsh git build-essential feh alacritty xorg xserver-xorg x11-utils xinit x11-xserver-utils fonts-league-mono  fonts-font-awesome fonts-dejavu  bc xcompmgr x11-utils arandr dosfstools libnotify-bin dunst calcurse exfatprogs nsxiv xwallpaper ffmpeg ffmpegthumbnailer gnome-keyring neovim mpd mpc mpv man-db ncmpcpp newsboat fonts-noto fonts-noto-color-emoji ntfs-3g wireplumber pipewire-pulse pulsemixer sc-im maim abook unclutter unzip lynx xcape xclip xdotool yt-dlp zathura poppler-utils mediainfo atool fzf task-spooler socat moreutils tesseract-ocr-eng tesseract-ocr tesseract-ocr-eng suckless-tools dwm firefox-esr
         sudo extrepo enable librewolf
         sudo apt update && sudo apt install librewolf -y      
