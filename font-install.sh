@@ -17,10 +17,10 @@ select font_name in "${fons_list[@]}" "Quit";
         if [ "$(command -v curl)" ]; then
             echo "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$font_name.zip"
             curl -OL "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$font_name.zip"
-            echo "creating fonts folder: ${HOME}/.fonts"
+            echo "creating fonts folder: /home/$name/.local/share/fonts/"
             mkdir -p  "/home/$name/.fonts"
             echo "unzip the $font_name.zip"
-            unzip "$font_name.zip" -d "/home/$name/.fonts/$font_name/"
+            unzip "$font_name.zip" -d "/home/$name/.local/share/fonts/$font_name/"
             fc-cache -fv
             echo "done!"     
             break
@@ -28,10 +28,10 @@ select font_name in "${fons_list[@]}" "Quit";
         elif [ "$(command -v wget)" ]; then
             echo "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$font_name.zip"
             wget "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$font_name.zip"
-            echo "creating fonts folder: ${HOME}/.fonts"
+            echo "creating fonts folder: /home/$name/.local/share/fonts/"
             mkdir -p  "/home/$name/.fonts"
             echo "unzip the $font_name.zip"
-            unzip "$font_name.zip" -d "/home/$name/.fonts/$font_name/"
+            unzip "$font_name.zip" -d "/home/$name/.local/share/fonts/$font_name/"
             fc-cache -fv
             echo "done!"
             break
