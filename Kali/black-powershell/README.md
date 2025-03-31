@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/Kal
 2. Run script
 
 ```
-sudo bash black-powershell-larbs.sh
+sudo bash black-powershell-install.sh
 ```
 
 3. Log out and login using `DWM`
