@@ -134,13 +134,6 @@ install_nerd_fonts() {
 }
 
 
-
-finalize() {
-        sleep 10
-	whiptail --title 'Installation Almost Complete' --msgbox 'Press enter.' 7 60
-}
-
-
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
@@ -161,5 +154,4 @@ configure_system
 setup_dwm
 set_background
 install_nerd_fonts
-finalize
 install_ohmyzsh
