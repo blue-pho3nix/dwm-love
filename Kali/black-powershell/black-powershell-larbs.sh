@@ -75,8 +75,8 @@ clone_dotfiles() {
 	sudo -u "$name" git clone --depth 1 "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
-        rm -rf /home/$name/.git
-	rm /home/$name/README.md
+        rm -rf "/home/$name/.git"
+	rm "/home/$name/README.md"
 }
 
 set_shell() {
@@ -131,7 +131,6 @@ install_nerd_fonts() {
 	whiptail --infobox "Installing Nerd Fonts..." 7 60
 	echo "37" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
         echo "14" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
-	rm /home/$name/FiraCode.zip rm /home/$name/NerdFontsSymbolsOnly.zip
         fc-cache -fv
 }
 
@@ -140,6 +139,10 @@ install_ohmyzsh() {
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         rm /home/$name/.zshrc
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
+}
+
+cleanup {
+        rm /home/$name/FiraCode.zip rm /home/$name/NerdFontsSymbolsOnly.zip
 }
 
 finalize() {
@@ -162,4 +165,5 @@ setup_dwm
 set_background
 install_nerd_fonts
 install_ohmyzsh
+cleanup
 finalize
