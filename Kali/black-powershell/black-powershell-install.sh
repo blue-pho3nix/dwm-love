@@ -104,7 +104,7 @@ configure_system() {
         MatchIsTouchpad "on"
         Driver "libinput"
         Option "Tapping" "on"
-EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
+        EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 }
 
 
@@ -140,8 +140,7 @@ install_ohmyzsh() {
 }
 
 finalize() {
-        sleep 5
-	rm /home/$name/.zshrc
+        sleep 10
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 	whiptail --title 'Installation Complete' --msgbox 'Installation complete!\\n\\nLog in as $name using dwm.' 10 60
 }
