@@ -50,7 +50,6 @@ installbase() {
         # File to modify
         SOURCES_FILE="/etc/apt/sources.list"
 
-        # Lines to add
         LINE1="# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/"
         LINE2="#deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
         LINE3="deb https://mirror.math.princeton.edu/pub/kali/ kali-rolling main contrib non-free non-free-firmware"
@@ -59,7 +58,7 @@ installbase() {
 
         # Check if lines already exist in the file, and add them if not
         if ! grep -Fxq "$LINE1" "$SOURCES_FILE"; then
-                echo "$LINE1" | sudo tee -a "$SOURCES_FILE" > /dev/null
+                echo "$LINE1" | sudo tee "$SOURCES_FILE" > /dev/null
         fi
         if ! grep -Fxq "$LINE2" "$SOURCES_FILE"; then
                 echo "$LINE2" | sudo tee -a "$SOURCES_FILE" > /dev/null
