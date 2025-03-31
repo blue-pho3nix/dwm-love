@@ -136,7 +136,7 @@ install_nerd_fonts() {
 
 
 finalize() {
-	whiptail --title 'Installation Complete' --msgbox 'Installation complete after ohmyzsh is installed!\\n\\nLog in as $name using dwm.' 10 60
+	whiptail --title 'Installation Complete' --msgbox 'Installation complete after ohmyzsh is installed!\\n\\nLog in as $name using dwm.' 7 60
 }
 
 
