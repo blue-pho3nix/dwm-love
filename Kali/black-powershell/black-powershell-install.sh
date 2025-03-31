@@ -127,10 +127,9 @@ set_background() {
 	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
 }
 
-install_nerd_fonts() {
-	whiptail --infobox "Installing Nerd Fonts..." 7 60
-	echo "37" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
-        echo "14" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+checking_nerd_fonts() {
+	whiptail --infobox "Checking Nerd Fonts..." 7 60
+	 fc-cache -fv
 }
 
 install_ohmyzsh() {
@@ -139,9 +138,6 @@ install_ohmyzsh() {
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc\
  	echo "Installation Complete <3 Log in as $name using dwm" 
 }
-
-
-
 
 
 ### MAIN SCRIPT ###
@@ -156,5 +152,5 @@ set_shell
 configure_system
 setup_dwm
 set_background
-install_nerd_fonts
+checking_nerd_fonts
 install_ohmyzsh
