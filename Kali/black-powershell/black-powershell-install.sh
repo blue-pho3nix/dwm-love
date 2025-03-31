@@ -137,11 +137,12 @@ install_nerd_fonts() {
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        rm /home/$name/.zshrc
-	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 }
 
 finalize() {
+        sleep 5
+	rm /home/$name/.zshrc
+	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 	whiptail --title 'Installation Complete' --msgbox 'Installation complete!\\n\\nLog in as $name using dwm.' 10 60
 }
 
