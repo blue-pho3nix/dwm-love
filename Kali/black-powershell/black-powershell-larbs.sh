@@ -5,7 +5,7 @@
 # License: GNU GPLv3
 
 ### VARIABLES ###
-dotfilesrepo="https://github.com/blue-pho3nix/alacritty-black-powershell-dwm-rice.git"
+dotfilesrepo="https://github.com/blue-pho3nix/black-powershell-dwm-rice.git"
 export TERM=ansi
 
 ### FUNCTIONS ###
