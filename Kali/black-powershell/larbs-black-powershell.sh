@@ -138,8 +138,8 @@ install_ohmyzsh() {
 
 install_nerd_fonts() {
 	whiptail --infobox "Installing Nerd Fonts..." 7 60
-	echo "37" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/install_files/font-install.sh)"
-        echo "14" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/install_files/font-install.sh)"
+	echo "37" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+        echo "14" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
 	echo "Installation Complete <3 Log in as $name using dwm" 
 }
 
