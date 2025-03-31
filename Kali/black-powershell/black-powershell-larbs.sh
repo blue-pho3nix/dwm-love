@@ -117,14 +117,6 @@ EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 }
 
 
-install_nerd_fonts() {
-	whiptail --infobox "Installing Nerd Fonts..." 7 60
-	echo "37" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
-        echo "14" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
-	rm FiraCode.zip NerdFontsSymbolsOnly.zip
-        fc-cache -fv
-}
-
 
 setup_dwm() {
 	whiptail --infobox "Setting up DWM..." 7 60
@@ -136,7 +128,7 @@ setup_dwm() {
         sudo make clean install
 	cd /home/$name/.local/src/st
         sudo make clean install
-	cd
+	cd /home/$name/
 }
 
 set_background() {
@@ -144,11 +136,19 @@ set_background() {
 	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
 }
 
+install_nerd_fonts() {
+	whiptail --infobox "Installing Nerd Fonts..." 7 60
+	echo "37" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+        echo "14" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+	rm /home/$name/FiraCode.zip rm /home/$name/NerdFontsSymbolsOnly.zip
+        fc-cache -fv
+}
+
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         rm /home/$name/.zshrc
-	mv /home/$name/zsh/.zshrc /home/$name/.zshrc
+	cp /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 }
 
 
