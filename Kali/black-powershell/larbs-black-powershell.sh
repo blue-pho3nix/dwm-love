@@ -127,21 +127,21 @@ set_background() {
 	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
 }
 
-
-
-install_ohmyzsh() {
-	whiptail --infobox "Installing Oh My Zsh..." 7 60
-	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
-	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
-}
-
-
 install_nerd_fonts() {
 	whiptail --infobox "Installing Nerd Fonts..." 7 60
 	echo "37" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
         echo "14" | sudo -u $name bash -c "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
-	echo "Installation Complete <3 Log in as $name using dwm" 
 }
+
+install_ohmyzsh() {
+	whiptail --infobox "Installing Oh My Zsh..." 7 60
+	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
+	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc\
+ 	echo "Installation Complete <3 Log in as $name using dwm" 
+}
+
+
+
 
 
 ### MAIN SCRIPT ###
