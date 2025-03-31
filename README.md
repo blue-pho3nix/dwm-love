@@ -1,8 +1,12 @@
 # Kali DWM Love
 
-I made/edited scripts to install various DWM themes on Kali. <br>
+I made scripts to install various DWM themes on Kali. <br>
 These scripts are based on https://larbs.xyz/larbs.sh <br>
-Enjoy. <br>
+
+Note: I use VMware. The `.xprofile` file has settings that make copy paste possible in DWM.<br> 
+If you're using Virtualbox, you can remove `vmware-user` from `.xprofile`.
+
+Enjoy! <3 <br>
 
 ## Kali DWM Installation Instructions:
 1. Pick a theme
