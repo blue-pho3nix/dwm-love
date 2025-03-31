@@ -127,15 +127,11 @@ set_background() {
 	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
 }
 
-checking_nerd_fonts() {
-	whiptail --infobox "Checking Nerd Fonts..." 7 60
-	 fc-cache -fv
-}
 
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
-	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc\
+	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
  	echo "Installation Complete <3 Log in as $name using dwm" 
 }
 
@@ -152,5 +148,4 @@ set_shell
 configure_system
 setup_dwm
 set_background
-checking_nerd_fonts
 install_ohmyzsh
