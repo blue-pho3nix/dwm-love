@@ -142,7 +142,8 @@ install_ohmyzsh() {
 }
 
 cleanup() {
-        rm /home/$name/FiraCode.zip rm /home/$name/NerdFontsSymbolsOnly.zip
+        rm /home/$name/FiraCode.zip 
+	rm /home/$name/NerdFontsSymbolsOnly.zip
 }
 
 finalize() {
