@@ -57,7 +57,8 @@ installbase() {
         LINE5="# deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
 
         # Check if lines already exist in the file, and add them if not
-        echo "$LINE1" | sudo tee "$SOURCES_FILE" > /dev/null
+        sudo rm "$SOURCES_FILE"
+	echo "$LINE1" | sudo tee -a "$SOURCES_FILE" > /dev/null
         echo "$LINE2" | sudo tee -a "$SOURCES_FILE" > /dev/null
         echo "$LINE3" | sudo tee -a "$SOURCES_FILE" > /dev/null
         echo "$LINE4" | sudo tee -a "$SOURCES_FILE" > /dev/null
