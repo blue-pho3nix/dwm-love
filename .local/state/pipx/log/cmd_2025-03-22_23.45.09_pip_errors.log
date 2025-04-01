@@ -1,0 +1,7 @@
+PIP STDOUT
+----------
+
+PIP STDERR
+----------
+ERROR: Could not find a version that satisfies the requirement tensorflow-gpu==2 (from versions: 2.12.0)
+ERROR: No matching distribution found for tensorflow-gpu==2

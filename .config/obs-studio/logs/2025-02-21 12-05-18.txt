@@ -1,0 +1,152 @@
+12:05:18.388: Using EGL/X11
+12:05:18.389: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+12:05:18.389: CPU Speed: 1994.055MHz
+12:05:18.389: Physical Cores: 6, Logical Cores: 12
+12:05:18.389: Physical Memory: 15934MB Total, 12016MB Free
+12:05:18.389: Kernel Version: Linux 6.13.3-artix1-1
+12:05:18.389: Distribution: "Artix Linux" Unknown
+12:05:18.389: Session Type: tty
+12:05:18.389: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:05:18.390: Qt Version: 6.8.2 (runtime), 6.8.2 (compiled)
+12:05:18.390: Portable mode: false
+12:05:18.445: OBS 31.0.1-tytan652-1 (linux)
+12:05:18.445: ---------------------------------
+12:05:18.446: ---------------------------------
+12:05:18.446: audio settings reset:
+12:05:18.446: 	samples per sec: 48000
+12:05:18.446: 	speakers:        2
+12:05:18.446: 	max buffering:   960 milliseconds
+12:05:18.446: 	buffering type:  dynamically increasing
+12:05:18.448: ---------------------------------
+12:05:18.448: Initializing OpenGL...
+12:05:18.662: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+12:05:18.662: OpenGL loaded successfully, version 3.3.0 NVIDIA 570.86.16, shading language 3.30 NVIDIA via Cg compiler
+12:05:18.702: ---------------------------------
+12:05:18.702: video settings reset:
+12:05:18.702: 	base resolution:   1920x1080
+12:05:18.702: 	output resolution: 1920x1080
+12:05:18.702: 	downscale filter:  Bicubic
+12:05:18.702: 	fps:               60/1
+12:05:18.702: 	format:            NV12
+12:05:18.702: 	YUV mode:          Rec. 709/Partial
+12:05:18.703: NV12 texture support enabled
+12:05:18.703: P010 texture support not available
+12:05:18.703: Audio monitoring device:
+12:05:18.703: 	name: Default
+12:05:18.703: 	id: default
+12:05:18.705: ---------------------------------
+12:05:18.737: No AJA devices found, skipping loading AJA UI plugin
+12:05:18.737: Failed to initialize module 'aja-output-ui.so'
+12:05:18.743: os_dlopen(/usr/lib/obs-plugins/aja.so->/usr/lib/obs-plugins/aja.so): /usr/lib/obs-plugins/aja.so: undefined symbol: _ZN18CNTV2DeviceScanner17GetDeviceInfoListEv
+12:05:18.743: 
+12:05:18.748: os_dlopen(/usr/lib/obs-plugins/aja.so->/usr/lib/obs-plugins/aja.so): /usr/lib/obs-plugins/aja.so: undefined symbol: _ZN18CNTV2DeviceScanner17GetDeviceInfoListEv
+12:05:18.748: 
+12:05:18.748: Module '/usr/lib/obs-plugins/aja.so' not loaded
+12:05:18.759: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:05:18.770: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:05:18.781: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:05:18.781: Failed to initialize module 'decklink.so'
+12:05:19.103: [pipewire] No capture sources available
+12:05:19.134: v4l2loopback not installed, virtual camera not registered
+12:05:19.150: [obs-browser]: Version 2.24.4
+12:05:19.150: [obs-browser]: CEF Version 127.0.6533.100 (runtime), 127.3.4+ge9e2e14+chromium-127.0.6533.100 (compiled)
+12:05:19.225: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:05:19.225: FFmpeg VAAPI H264 encoding not supported
+12:05:19.225: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:05:19.225: FFmpeg VAAPI AV1 encoding not supported
+12:05:19.225: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:05:19.225: FFmpeg VAAPI HEVC encoding not supported
+12:05:19.977: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.0 (driver), CUDA driver version: 12.80, AV1 supported: false
+12:05:20.096: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.4 | RPC Version: 1)
+12:05:20.096: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.2 | Qt version (run-time): 6.8.2
+12:05:20.096: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+12:05:20.097: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+12:05:20.104: [obs-websocket] [obs_module_load] Module loaded.
+12:05:20.181: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+12:05:20.182: ---------------------------------
+12:05:20.182:   Loaded Modules:
+12:05:20.182:     vlc-video.so
+12:05:20.182:     text-freetype2.so
+12:05:20.182:     sndio.so
+12:05:20.182:     rtmp-services.so
+12:05:20.182:     obs-x264.so
+12:05:20.182:     obs-websocket.so
+12:05:20.182:     obs-webrtc.so
+12:05:20.182:     obs-vst.so
+12:05:20.182:     obs-transitions.so
+12:05:20.182:     obs-qsv11.so
+12:05:20.182:     obs-outputs.so
+12:05:20.182:     obs-nvenc.so
+12:05:20.182:     obs-libfdk.so
+12:05:20.182:     obs-filters.so
+12:05:20.182:     obs-ffmpeg.so
+12:05:20.182:     obs-browser.so
+12:05:20.182:     linux-v4l2.so
+12:05:20.182:     linux-pulseaudio.so
+12:05:20.182:     linux-pipewire.so
+12:05:20.182:     linux-jack.so
+12:05:20.182:     linux-capture.so
+12:05:20.182:     linux-alsa.so
+12:05:20.182:     image-source.so
+12:05:20.182:     frontend-tools.so
+12:05:20.182:     decklink-output-ui.so
+12:05:20.182:     decklink-captions.so
+12:05:20.182: ---------------------------------
+12:05:20.182: ---------------------------------
+12:05:20.182: Available Encoders:
+12:05:20.182:   Video Encoders:
+12:05:20.182: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:05:20.182: 	- ffmpeg_aom_av1 (AOM AV1)
+12:05:20.182: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+12:05:20.182: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+12:05:20.182: 	- obs_x264 (x264)
+12:05:20.182:   Audio Encoders:
+12:05:20.182: 	- ffmpeg_aac (FFmpeg AAC)
+12:05:20.182: 	- ffmpeg_opus (FFmpeg Opus)
+12:05:20.182: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:05:20.182: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:05:20.182: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:05:20.182: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:05:20.182: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:05:20.182: 	- libfdk_aac (libfdk AAC)
+12:05:20.182: ==== Startup complete ===============================================
+12:05:20.238: All scene data cleared
+12:05:20.239: ------------------------------------------------
+12:05:20.241: pulse-input: Unable to get server info !
+12:05:20.241: [Loaded global audio device]: 'Desktop Audio'
+12:05:20.241: pulse-input: Unable to get server info !
+12:05:20.244: [Loaded global audio device]: 'Mic/Aux'
+12:05:20.244:     - filter: 'Noise Suppression 3' (noise_suppress_filter_v2)
+12:05:20.244:     - filter: 'Compressor' (compressor_filter)
+12:05:20.244:     - filter: 'Noise Gate' (noise_gate_filter)
+12:05:20.244:     - filter: 'Gain' (gain_filter)
+12:05:20.244:     - filter: 'Limiter' (limiter_filter)
+12:05:20.244:     - filter: 'Noise Suppression 2' (noise_suppress_filter_v2)
+12:05:20.244:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+12:05:20.245: [window-capture: 'Game'] update settings:
+12:05:20.245: 	title: unknown
+12:05:20.245: 	class: unknown
+12:05:20.245: 
+12:05:20.246: xshm-input: Geometry 1920x1080 @ 0,0
+12:05:20.742: Switched to scene 'Screenshare'
+12:05:20.742: ------------------------------------------------
+12:05:20.742: Loaded scenes:
+12:05:20.742: - scene 'Screenshare':
+12:05:20.742:     - source: 'Display Capture (XSHM)' (xshm_input)
+12:05:20.742:     - source: 'Game' (xcomposite_input)
+12:05:20.742:         - filter: 'Crop/Pad' (crop_filter)
+12:05:20.742:     - source: 'ChatBox' (group)
+12:05:20.742:         - source: 'Color Source' (color_source_v3)
+12:05:20.742:             - filter: 'Chroma Key' (chroma_key_filter_v2)
+12:05:20.742:     - source: 'Emote Wall' (browser_source)
+12:05:20.742:     - source: 'Chat' (browser_source)
+12:05:20.742: - scene 'Away':
+12:05:20.742:     - source: 'Bingus' (image_source)
+12:05:20.742: ------------------------------------------------
+12:05:26.775: [obs-browser: 'Chat'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/chatbox.custom.js?id=1e95108bcb8d6011eab0:2)
+12:06:26.262: ==== Shutting down ==================================================
+12:06:26.376: All scene data cleared
+12:06:26.376: ------------------------------------------------
+12:06:26.481: [obs-websocket] [obs_module_unload] Shutting down...
+12:06:26.481: Tried to call obs_frontend_remove_event_callback with no callbacks!
+12:06:26.481: [obs-websocket] [obs_module_unload] Finished shutting down.

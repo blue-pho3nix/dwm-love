@@ -1,0 +1,186 @@
+2025-03-24 18:41:43 INFO  (LoggingInitialization) Using log config file: jar:file:/home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-03-24 18:41:43 INFO  (LoggingInitialization) Using log file: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/application.log  
+2025-03-24 18:41:44 INFO  (Preferences) Loading user preferences: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/preferences  
+2025-03-24 18:41:47 INFO  (ClassSearcher) Searching for classes...  
+2025-03-24 18:41:48 INFO  (ClassSearcher) Class search complete (1030 ms)  
+2025-03-24 18:41:48 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-03-24 18:41:48 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-03-24 18:41:48 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-03-24 18:41:48 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-03-24 18:41:48 INFO  (GhidraRun) User blue started Ghidra.  
+2025-03-24 18:41:48 INFO  (GhidraRun) User settings directory: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC  
+2025-03-24 18:41:48 INFO  (GhidraRun) User temp directory: /tmp/blue-ghidra  
+2025-03-24 18:41:48 INFO  (GhidraRun) User cache directory: /var/tmp/blue-ghidra  
+2025-03-24 18:41:48 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2025-03-24 18:41:48 DEBUG (DefaultProjectManager) 	no recent project directories found  
+2025-03-24 18:41:49 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-03-24 18:41:50 INFO  (GhidraRun) Ghidra startup complete (7173 ms)  
+2025-03-24 18:44:36 INFO  (LoggingInitialization) Using log config file: jar:file:/home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-03-24 18:44:36 INFO  (LoggingInitialization) Using log file: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/application.log  
+2025-03-24 18:44:37 INFO  (Preferences) Loading user preferences: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/preferences  
+2025-03-24 18:44:37 INFO  (ClassSearcher) Searching for classes...  
+2025-03-24 18:44:38 INFO  (ClassSearcher) Class search complete (781 ms)  
+2025-03-24 18:44:38 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-03-24 18:44:38 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-03-24 18:44:38 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-03-24 18:44:38 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-03-24 18:44:38 INFO  (GhidraRun) User blue started Ghidra.  
+2025-03-24 18:44:38 INFO  (GhidraRun) User settings directory: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC  
+2025-03-24 18:44:38 INFO  (GhidraRun) User temp directory: /tmp/blue-ghidra  
+2025-03-24 18:44:38 INFO  (GhidraRun) User cache directory: /home/blue/.cache/ghidra  
+2025-03-24 18:44:39 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-03-24 18:44:39 INFO  (GhidraRun) Ghidra startup complete (3288 ms)  
+2025-03-24 18:46:40 INFO  (LoggingInitialization) Using log config file: jar:file:/home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-03-24 18:46:40 INFO  (LoggingInitialization) Using log file: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/application.log  
+2025-03-24 18:46:40 INFO  (Preferences) Loading user preferences: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/preferences  
+2025-03-24 18:46:40 INFO  (ClassSearcher) Searching for classes...  
+2025-03-24 18:46:41 INFO  (ClassSearcher) Class search complete (621 ms)  
+2025-03-24 18:46:41 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-03-24 18:46:41 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-03-24 18:46:41 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-03-24 18:46:41 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-03-24 18:46:41 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /home/blue/.cache/ghidra/fscache2  
+2025-03-24 18:46:41 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2025-03-24 18:46:41 INFO  (AnalyzeHeadless) Headless startup complete (1638 ms)  
+2025-03-24 18:46:41 INFO  (ClassSearcher) Class searcher loaded 57 extension points (18 false positives)  
+2025-03-24 18:46:41 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Jython/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts  
+2025-03-24 18:46:41 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2025-03-24 18:46:41 INFO  (HeadlessAnalyzer) Creating project: /home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep_0  
+2025-03-24 18:46:41 INFO  (DefaultProject) Creating project: /home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep_0  
+2025-03-24 18:46:41 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2025-03-24 18:46:41 INFO  (HeadlessAnalyzer)      project: /home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep_0  
+2025-03-24 18:46:41 INFO  (HeadlessAnalyzer) IMPORTING: file:///home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep  
+2025-03-24 18:46:42 INFO  (AutoImporter) Using Loader: Executable and Linking Format (ELF)  
+2025-03-24 18:46:42 INFO  (AutoImporter) Using Language/Compiler: x86:LE:64:default:gcc  
+2025-03-24 18:46:42 INFO  (AutoImporter) Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni]  
+2025-03-24 18:46:43 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2025-03-24 18:46:43 DEBUG (ElfHeader) Elf relocation table section .rela.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2025-03-24 18:46:43 DEBUG (ElfHeader) Elf relocation table section .rela.plt linked to symbol table section .dynsym affecting .got  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 2-byte alignment/filler segment_4.2 at 0011c9e6  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_4.4 at 0011cacc  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 5-byte alignment/filler segment_3.2 at 0010101b  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 3-byte alignment/filler segment_3.7 at 0010900d  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_2.3 at 00100334  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_2.7 at 001003ac  
+2025-03-24 18:46:43 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_2.12 at 0010075c  
+2025-03-24 18:46:43 INFO  (AutoImporter) Additional info:
+Loading file:///home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep?MD5=f12c5446b76bb68d61b0f630484844a9...
+ELF Relocation Failure: R_X86_64_COPY (5, 0x5) at 0011f018 (Symbol = stdout) - Runtime copy not supported (8-bytes)
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .dynamic to read-only
+Failed to markup ELF Note at 00100338: data conflict
+Failed to markup ELF Note at 00100368: data conflict
+Failed to markup ELF Note at 0010038c: data conflict
+------------------------------------------------
+
+Linking the External Programs of 'singlestep' to imported libraries...
+  [libc.so.6] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/singlestep] - 19 unresolved symbols, no external libraries configured - skipping
+  
+2025-03-24 18:46:43 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2025-03-24 18:46:43 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep  
+2025-03-24 18:46:43 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=445e2cc761c71ea19559bd16632decb2178feb1d]  
+2025-03-24 18:46:43 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2025-03-24 18:46:44 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2025-03-24 18:46:45 INFO  (PackedDatabaseCache) Packed database cache: /home/blue/.cache/ghidra/packed-db-cache  
+2025-03-24 18:46:45 DEBUG (PackedDatabaseCache) Caching packed database: /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-03-24 18:46:45 DEBUG (PackedDatabase) Unpacking database /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt -> /home/blue/.cache/ghidra/packed-db-cache/pdbA0C1BA00/db.1.gbf  
+2025-03-24 18:46:45 DEBUG (PackedDatabaseCache) Cache update completed: /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-03-24 18:46:46 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2025-03-24 18:46:46 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.265 secs
+    Apply Data Archives                        0.574 secs
+    Call Convention ID                         0.004 secs
+    Call-Fixup Installer                       0.021 secs
+    Create Address Tables                      0.056 secs
+    Create Address Tables - One Time           0.005 secs
+    Create Function                            0.022 secs
+    DWARF                                      0.007 secs
+    Data Reference                             0.022 secs
+    Decompiler Switch Analysis                 0.037 secs
+    Decompiler Switch Analysis - One Time      1.096 secs
+    Demangler GNU                              0.021 secs
+    Disassemble Entry Points                   0.110 secs
+    ELF Scalar Operand References              0.035 secs
+    Embedded Media                             0.011 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.032 secs
+    Function Start Search                      0.036 secs
+    Function Start Search After Code           0.003 secs
+    Function Start Search After Data           0.002 secs
+    GCC Exception Handlers                     0.079 secs
+    Non-Returning Functions - Discovered       0.003 secs
+    Non-Returning Functions - Known            0.003 secs
+    Reference                                  0.029 secs
+    Shared Return Calls                        0.019 secs
+    Stack                                      0.070 secs
+    Subroutine References                      0.005 secs
+    Subroutine References - One Time           0.000 secs
+    x86 Constant Reference Analyzer            0.239 secs
+-----------------------------------------------------
+     Total Time   2 secs
+-----------------------------------------------------
+  
+2025-03-24 18:46:46 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep  
+2025-03-24 18:46:46 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /singlestep (singlestep_0:/singlestep)  
+2025-03-24 18:46:46 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
+2025-03-24 18:46:48 INFO  (LoggingInitialization) Using log config file: jar:file:/home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2025-03-24 18:46:48 INFO  (LoggingInitialization) Using log file: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/application.log  
+2025-03-24 18:46:48 INFO  (Preferences) Loading user preferences: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC/preferences  
+2025-03-24 18:46:48 INFO  (ClassSearcher) Searching for classes...  
+2025-03-24 18:46:49 INFO  (ClassSearcher) Class search complete (733 ms)  
+2025-03-24 18:46:49 INFO  (SSLContextInitializer) Initializing SSL Context  
+2025-03-24 18:46:49 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2025-03-24 18:46:49 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2025-03-24 18:46:49 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2025-03-24 18:46:49 INFO  (GhidraRun) User blue started Ghidra.  
+2025-03-24 18:46:49 INFO  (GhidraRun) User settings directory: /home/blue/.config/ghidra/ghidra_11.3.1_PUBLIC  
+2025-03-24 18:46:49 INFO  (GhidraRun) User temp directory: /tmp/blue-ghidra  
+2025-03-24 18:46:49 INFO  (GhidraRun) User cache directory: /home/blue/.cache/ghidra  
+2025-03-24 18:46:50 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2025-03-24 18:46:51 INFO  (DefaultProject) Opening project: /home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep_0  
+2025-03-24 18:46:51 INFO  (GhidraRun) Ghidra startup complete (3782 ms)  
+2025-03-24 18:46:59 INFO  (PackedDatabaseCache) Packed database cache: /home/blue/.cache/ghidra/packed-db-cache  
+2025-03-24 18:46:59 DEBUG (PackedDatabaseCache) Using cached packed database: /home/blue/Documents/useful/ghidra_11.3.1_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2025-03-24 18:47:16 WARN  (DecompileCallback) Decompiling 001043e0, pcode error at 001043ee: Unable to resolve constructor at 001043ee  
+2025-03-24 18:47:20 WARN  (DecompileCallback) Decompiling 00103fc0, pcode error at 00103fcc: Unable to resolve constructor at 00103fcc  
+2025-03-24 18:47:24 WARN  (DecompileCallback) Decompiling 00103ea0, pcode error at 00103e88: Unable to resolve constructor at 00103e88  
+2025-03-24 18:47:29 WARN  (DecompileCallback) Decompiling 001038a0, pcode error at 001038f1: Unable to resolve constructor at 001038f1  
+2025-03-24 18:47:33 WARN  (DecompileCallback) Decompiling 00103690, pcode error at 001036d9: Unable to resolve constructor at 001036d9  
+2025-03-24 18:47:40 WARN  (DecompileCallback) Decompiling 00102630, pcode error at 00102678: Unable to resolve constructor at 00102678  
+2025-03-24 18:47:44 WARN  (DecompileCallback) Decompiling 00102180, pcode error at 001021ca: Unable to resolve constructor at 001021ca  
+2025-03-24 18:47:59 WARN  (DecompileCallback) Decompiling 00101b00, pcode error at 00101b62: Unable to resolve constructor at 00101b62  
+2025-03-24 18:48:10 WARN  (DecompileCallback) Decompiling 00101820, pcode error at 001018ba: Unable to resolve constructor at 001018ba  
+2025-03-24 18:50:27 WARN  (DecompileCallback) Decompiling 00101b00, pcode error at 00101b62: Unable to resolve constructor at 00101b62  
+2025-03-24 18:58:39 WARN  (DecompileCallback) Decompiling 00102180, pcode error at 001021ca: Unable to resolve constructor at 001021ca  
+2025-03-24 18:58:47 WARN  (DecompileCallback) Decompiling 00102630, pcode error at 00102678: Unable to resolve constructor at 00102678  
+2025-03-24 18:59:55 WARN  (DecompileCallback) Decompiling 001038a0, pcode error at 001038f1: Unable to resolve constructor at 001038f1  
+2025-03-24 19:01:08 WARN  (DecompileCallback) Decompiling 00103ea0, pcode error at 00103e88: Unable to resolve constructor at 00103e88  
+2025-03-24 19:01:11 WARN  (DecompileCallback) Decompiling 00103fc0, pcode error at 00103fcc: Unable to resolve constructor at 00103fcc  
+2025-03-24 19:01:28 WARN  (DecompileCallback) Decompiling 001043e0, pcode error at 001043ee: Unable to resolve constructor at 001043ee  

@@ -1,0 +1,14 @@
+#User Preferences
+#Mon Mar 24 18:46:51 EDT 2025
+G_FILE_CHOOSER.HEIGHT.Open\ a\ Ghidra\ Project=600
+G_FILE_CHOOSER.VIEW_STYLE.Open\ a\ Ghidra\ Project=SimpleView
+G_FILE_CHOOSER.WIDTH.Open\ a\ Ghidra\ Project=800
+GhidraShowWhatsNew=false
+LastOpenedProject=/home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep_0
+RecentProjects=/home/blue/Documents/htb/ctf/cyberap/rev_singlestep/singlestep_0
+SHOW.HELP.NAVIGATION.AID=true
+SHOW_TIPS=false
+TIP_INDEX=1
+Theme=Class\:generic.theme.builtin.FlatLightTheme
+USER_AGREEMENT=ACCEPT
+ViewedProjects=

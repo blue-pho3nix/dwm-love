@@ -1,0 +1,77 @@
+   209.2ms (setup:1108): 2025-03-22 23:42:06
+   209.4ms (setup:1109): /usr/bin/pipx install tensorflow-gpu
+   209.5ms (setup:1110): pipx version is 1.7.1
+   209.5ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   209.7ms (mkdir:76): creating directory /home/blue/.local/share/pipx/venvs
+   210.2ms (mkdir:76): creating directory /home/blue/.local/share/man
+   210.3ms (mkdir:76): creating directory /home/blue/.cache/pipx
+   210.6ms (mkdir:76): creating directory /home/blue/.local/share/pipx/py
+   210.8ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   211.2ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   213.7ms (package_name_from_spec:378): Determined package name: tensorflow-gpu
+   213.8ms (package_name_from_spec:379): Package name determined in 0.0s
+   214.1ms (create_venv:164): Creating virtual environment
+   215.2ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --without-pip /home/blue/.local/share/pipx/venvs/tensorflow-gpu
+   288.2ms (run_subprocess:195): stdout:
+   288.3ms (run_subprocess:197): stderr:
+   288.4ms (run_subprocess:198): returncode: 0
+   290.6ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --clear /home/blue/.local/share/pipx/shared
+  2542.5ms (run_subprocess:195): stdout:
+  2542.6ms (run_subprocess:197): stderr:
+  2542.7ms (run_subprocess:198): returncode: 0
+  2544.0ms (run_subprocess:175): running <checking pip's availability>
+  2572.6ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f531b033050>, origin='/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+  2572.7ms (run_subprocess:198): returncode: 0
+  2573.4ms (upgrade:119): Upgrading shared libraries in /home/blue/.local/share/pipx/shared
+  2574.6ms (run_subprocess:175): running /home/blue/.local/share/pipx/shared/bin/python -m pip --no-input --disable-pip-version-check install --force-reinstall -q --upgrade pip >= 23.1
+  4737.8ms (run_subprocess:195): stdout:
+  4737.9ms (run_subprocess:197): stderr:
+  4738.0ms (run_subprocess:198): returncode: 0
+  4738.5ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  4770.0ms (run_subprocess:195): stdout: /home/blue/.local/share/pipx/venvs/tensorflow-gpu/lib/python3.13/site-packages
+  4770.1ms (run_subprocess:198): returncode: 0
+  4770.9ms (run_subprocess:175): running /home/blue/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  4801.1ms (run_subprocess:195): stdout: /home/blue/.local/share/pipx/shared/lib/python3.13/site-packages
+  4801.3ms (run_subprocess:198): returncode: 0
+  4802.4ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python --version
+  4806.6ms (run_subprocess:195): stdout: Python 3.13.2
+  4806.7ms (run_subprocess:197): stderr:
+  4806.8ms (run_subprocess:198): returncode: 0
+  4807.1ms (_parsed_package_to_package_or_url:139): cleaned package spec: tensorflow-gpu
+  4807.1ms (install_package:247): Installing tensorflow-gpu
+  4807.9ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -m pip --no-input install tensorflow-gpu
+  7242.5ms (run_subprocess:198): returncode: 1
+  7242.9ms (subprocess_post_check_handle_pip_error:332): '/home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -m pip --no-input install tensorflow-gpu' failed
+  7244.2ms (subprocess_post_check_handle_pip_error:347): Fatal error from pip prevented installation. Full pip output in file:
+    /home/blue/.local/state/pipx/log/cmd_2025-03-22_23.42.06_pip_errors.log
+  7245.0ms (analyze_pip_output:311): pip seemed to fail to build package:
+    tensorflow-gpu
+  7245.8ms (rmdir:56): removing directory /home/blue/.local/share/pipx/venvs/tensorflow-gpu
+  7247.5ms (cli:1179): PipxError: Error installing tensorflow-gpu.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 1176, in cli
+    return run_pipx_command(parsed_pipx_args, subparsers)
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 282, in run_pipx_command
+    return commands.install(
+           ~~~~~~~~~~~~~~~~^
+        None,
+        ^^^^^
+    ...<13 lines>...
+        python_flag_passed=python_flag_passed,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/commands/install.py", line 99, in install
+    venv.install_package(
+    ~~~~~~~~~~~~~~~~~~~~^
+        package_name=package_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        suffix=suffix,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/venv.py", line 265, in install_package
+    raise PipxError(f"Error installing {full_package_description(package_name, package_or_url)}.")
+pipx.util.PipxError: Error installing tensorflow-gpu.
+  7249.4ms (cli:1187): pipx finished.

@@ -1,0 +1,127 @@
+# Common recent settings file for Wireshark 4.4.5.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /home/blue/Documents/htb/challenge.pcap
+recent.capture_file: /home/blue/Documents/ctf/challenge.pcap
+
+######## Recent capture filters (latest first), cannot be altered through command line ########
+
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: tcp.stream eq 4
+recent.display_filter: tcp.stream eq 15
+recent.display_filter: ftp-data && frame contains "coolzip.zip"
+recent.display_filter: http
+recent.display_filter: http.content_type
+recent.display_filter: http.content_type == "application/zip"
+recent.display_filter: tcp.stream eq 9
+recent.display_filter: tcp.stream eq 10
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 14
+gui.geometry_main_y: 42
+gui.geometry_main_width: 1886
+gui.geometry_main_height: 860
+
+# Main window maximized.
+# true or false (case-insensitive).
+gui.geometry_main_maximized: false
+
+# Main window geometry state.
+# Hex byte string.
+gui.geometry_main: 01d9d0cb000300000000000e0000002a0000076d000003870000000f0000002b0000076c000003860000000000000000077e0000000f0000002b0000076c00000386
+
+# Leftalign Action Buttons.
+# true or false (case-insensitive).
+gui.geometry_leftalign_actions: false
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# Number of packets or events to check for automatic profile switching.
+# Decimal number. Zero disables switching.
+#gui.profile_switch_check_count: 1000
+
+# Warn if running with elevated permissions (e.g. as root).
+# true or false (case-insensitive).
+privs.warn_if_elevated: true
+
+# Warn if Wireshark is unable to capture.
+# true or false (case-insensitive).
+sys.warn_if_no_capture: true
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# true or false (case-insensitive).
+gui.search_case_sensitive: false
+
+# Find packet search reverse direction.
+# true or false (case-insensitive).
+gui.search_reverse_dir: false
+
+# Find packet search multiple occurrences.
+# true or false (case-insensitive).
+gui.search_multiple_occurs: false
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of FilterDialog window.
+# Decimal integers.
+gui.geom.FilterDialog.x: 15
+gui.geom.FilterDialog.y: 43
+gui.geom.FilterDialog.width: 918
+gui.geom.FilterDialog.height: 860
+# true or false (case-insensitive).
+gui.geom.FilterDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.FilterDialog.qt_geometry: 01d9d0cb000300000000000f0000002b000003a600000388000000100000002c000003a500000387000000000000000006b6000000100000002c000003a500000387
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 950
+gui.geom.PacketDialog.y: 43
+gui.geom.PacketDialog.width: 750
+gui.geom.PacketDialog.height: 276
+# true or false (case-insensitive).
+gui.geom.PacketDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.PacketDialog.qt_geometry: 01d9d0cb00030000000003b60000002b000006a500000140000003b70000002c000006a40000013f000000000000000006b6000003b70000002c000006a40000013f
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 15
+gui.geom.FollowStreamDialog.y: 43
+gui.geom.FollowStreamDialog.width: 1121
+gui.geom.FollowStreamDialog.height: 860
+# true or false (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.FollowStreamDialog.qt_geometry: 01d9d0cb000300000000000f0000002b0000047100000388000000100000002c00000470000003870000000000000000077e000000100000002c0000047000000387
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"

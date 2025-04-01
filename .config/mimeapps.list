@@ -1,0 +1,5 @@
+[Added Associations]
+text/plain=org.xfce.mousepad.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
+text/x-chdr=org.xfce.mousepad.desktop;
+application/pdf=librewolf.desktop;

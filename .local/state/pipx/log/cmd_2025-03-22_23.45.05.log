@@ -1,0 +1,60 @@
+   206.4ms (setup:1108): 2025-03-22 23:45:05
+   206.5ms (setup:1109): /usr/bin/pipx install tensorflow-gpu==2.0.0
+   206.6ms (setup:1110): pipx version is 1.7.1
+   206.7ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   208.5ms (package_name_from_spec:378): Determined package name: tensorflow-gpu
+   208.6ms (package_name_from_spec:379): Package name determined in 0.0s
+   208.8ms (create_venv:164): Creating virtual environment
+   210.2ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --without-pip /home/blue/.local/share/pipx/venvs/tensorflow-gpu
+   284.1ms (run_subprocess:195): stdout:
+   284.3ms (run_subprocess:197): stderr:
+   284.4ms (run_subprocess:198): returncode: 0
+   285.8ms (run_subprocess:175): running <checking pip's availability>
+   310.6ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fb877337050>, origin='/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/blue/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+   310.8ms (run_subprocess:198): returncode: 0
+   311.2ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   340.3ms (run_subprocess:195): stdout: /home/blue/.local/share/pipx/venvs/tensorflow-gpu/lib/python3.13/site-packages
+   340.6ms (run_subprocess:198): returncode: 0
+   341.4ms (run_subprocess:175): running /home/blue/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   369.8ms (run_subprocess:195): stdout: /home/blue/.local/share/pipx/shared/lib/python3.13/site-packages
+   370.3ms (run_subprocess:198): returncode: 0
+   371.5ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python --version
+   376.7ms (run_subprocess:195): stdout: Python 3.13.2
+   376.8ms (run_subprocess:197): stderr:
+   376.9ms (run_subprocess:198): returncode: 0
+   377.4ms (_parsed_package_to_package_or_url:139): cleaned package spec: tensorflow-gpu==2.0.0
+   377.4ms (install_package:247): Installing tensorflow-gpu from spec 'tensorflow-gpu==2.0.0'
+   378.4ms (run_subprocess:175): running /home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -m pip --no-input install tensorflow-gpu==2.0.0
+  1055.2ms (run_subprocess:198): returncode: 1
+  1055.6ms (subprocess_post_check_handle_pip_error:332): '/home/blue/.local/share/pipx/venvs/tensorflow-gpu/bin/python -m pip --no-input install tensorflow-gpu==2.0.0' failed
+  1056.5ms (subprocess_post_check_handle_pip_error:347): Fatal error from pip prevented installation. Full pip output in file:
+    /home/blue/.local/state/pipx/log/cmd_2025-03-22_23.45.05_pip_errors.log
+  1057.4ms (rmdir:56): removing directory /home/blue/.local/share/pipx/venvs/tensorflow-gpu
+  1059.0ms (cli:1179): PipxError: Error installing tensorflow-gpu from spec 'tensorflow-gpu==2.0.0'.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 1176, in cli
+    return run_pipx_command(parsed_pipx_args, subparsers)
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 282, in run_pipx_command
+    return commands.install(
+           ~~~~~~~~~~~~~~~~^
+        None,
+        ^^^^^
+    ...<13 lines>...
+        python_flag_passed=python_flag_passed,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/commands/install.py", line 99, in install
+    venv.install_package(
+    ~~~~~~~~~~~~~~~~~~~~^
+        package_name=package_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        suffix=suffix,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/venv.py", line 265, in install_package
+    raise PipxError(f"Error installing {full_package_description(package_name, package_or_url)}.")
+pipx.util.PipxError: Error installing tensorflow-gpu from spec 'tensorflow-gpu==2.0.0'.
+  1060.7ms (cli:1187): pipx finished.

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"pid:ETI"Sys::ProcTable::Smaps#pid;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"Process ID for this smaps;T:
+@fileI"%lib/linux/sys/proctable/smaps.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Sys::ProcTable::Smaps;TcRDoc::NormalClass0
