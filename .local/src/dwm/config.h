@@ -18,12 +18,12 @@ static int smartgaps          = 0;        /* 1 means no outer gap when there is 
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "NerdFontMono-Regular:size=14", "SymbolsNerdFontMono-Regular:pixelsize=18:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#000000"; // Exterior BG
+static char normbgcolor[]           = "#041A3B"; // Exterior BG
 static char normbordercolor[]       = "#000000";
-static char normfgcolor[]           = "#FFFF4E";
-static char selfgcolor[]            = "#B5DCFF";
-static char selbordercolor[]        = "#B5DCFF";
-static char selbgcolor[]            = "#000000";
+static char normfgcolor[]           = "#729FCF";
+static char selfgcolor[]            = "#0071FF";
+static char selbordercolor[]        = "#0071FF";
+static char selbgcolor[]            = "#041A3B";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
