@@ -1,9 +1,9 @@
 /* See LICENSE file for copyright and license details. */
 
 /* Constants */
-#define TERMINAL "st"
-#define TERMCLASS "ST"
-#define BROWSER "librewolf"
+#define TERMINAL "alacritty"
+#define TERMCLASS "alacritty"
+#define BROWSER "firefox"
 #define BAR_TRANS 0  // Disable transparency for the status bar
 
 /* appearance */
