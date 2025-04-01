@@ -3,7 +3,7 @@
 /* Constants */
 #define TERMINAL "st"
 #define TERMCLASS "ST"
-#define BROWSER "librewolf"
+#define BROWSER "firefox"
 #define BAR_TRANS 0  // Disable transparency for the status bar
 
 /* appearance */
