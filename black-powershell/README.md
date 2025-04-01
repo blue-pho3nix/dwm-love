@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 git clone -b black-powershell-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
 ```
 
-- [Alacritty Termainl dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-alacritty-dotfiles)
+- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-alacritty-dotfiles)
 
 ```
 git clone -b black-powershell-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
