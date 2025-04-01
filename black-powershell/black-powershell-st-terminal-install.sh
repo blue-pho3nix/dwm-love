@@ -5,7 +5,8 @@
 # License: GNU GPLv3
 
 ### VARIABLES ###
-dotfilesrepo="https://github.com/blue-pho3nix/black-powershell-dwm-rice.git"
+dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
+branch="black-powershell-st-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
@@ -72,7 +73,7 @@ installbase() {
 
 clone_dotfiles() {
 	whiptail --infobox "Cloning dotfiles..." 7 60
-	sudo -u "$name" git clone --depth 1 "$dotfilesrepo" "/home/$name/dotfiles"
+	sudo -u "$name" git clone --depth 1 -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
         rm -rf "/home/$name/.git"
@@ -89,9 +90,6 @@ configure_system() {
 
 	# Enable parallel downloads
 	echo "Acquire::Queue-Mode \"access\";" > /etc/apt/apt.conf.d/90parallel
-
-	# Set sudo without password
-	echo "%sudo ALL=(ALL) NOPASSWD: ALL" >/etc/sudoers.d/nopasswd
 
 	# Blacklist beep sound
 	echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
