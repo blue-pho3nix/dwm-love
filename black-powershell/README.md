@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 ![image](https://github.com/user-attachments/assets/f32bb50f-72d9-4749-b3c5-def740e9582c)
 
 ## If you just want the dotfiles, you can get em here:
-- [ST Termainal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-st-dotfiles)
+- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-st-dotfiles)
 
 ```
 git clone -b black-powershell-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
