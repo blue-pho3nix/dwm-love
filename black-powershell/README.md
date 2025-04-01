@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 ### w/ Alacritty Terminal
 
 ```
-
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-powershell/black-powershell-alacritty-terminal.sh && sudo bash black-powershell-alacritty-terminal.sh
 ```
 
 ## 2. Log out and login using `DWM`
@@ -32,4 +32,10 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 
 ```
 git clone -b black-powershell-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
+```
+
+- [Alacritty Termainl dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-alacritty-dotfiles)
+
+```
+git clone -b black-powershell-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
 ```
