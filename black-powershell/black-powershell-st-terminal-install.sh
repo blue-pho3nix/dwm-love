@@ -21,7 +21,7 @@ error() {
 }
 
 welcomemsg() {
-	whiptail --title "Welcome!" --msgbox "Welcome to the Kali LARBS Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
+	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black Powershell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
 
 getuserandpass() {
