@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Blue Pho3nix's Auto Rice Bootstrapping Script for Kali
+# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM
+# w/ Alacritty terminal 
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
