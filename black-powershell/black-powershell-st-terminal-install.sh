@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# Luke's Auto Rice Bootstrapping Script (LARBS) for Kali
-# Modified for Kali Linux by Jackie
-# License: GNU GPLv3
+# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM 
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
