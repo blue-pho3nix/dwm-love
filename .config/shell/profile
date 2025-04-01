@@ -12,7 +12,7 @@ unsetopt PROMPT_SP 2>/dev/null
 export EDITOR="helix"
 export TERMINAL="st"
 export TERMINAL_PROG="st"
-export BROWSER="librewolf"
+export BROWSER="firefox"
 
 # Change the default crypto/weather monitor sites.
 # export CRYPTOURL="rate.sx"
