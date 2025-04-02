@@ -13,7 +13,11 @@ Enjoy! <3 <br>
 2. Goto the theme's folder for install instructions
 
 ## Themes:
-### black-powershell
+### Black Powershell
 ![image](https://github.com/user-attachments/assets/10538829-32da-47b0-8969-77167a429831)
 
+[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-powershell)
+
+### Maleficent
+![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-powershell)
