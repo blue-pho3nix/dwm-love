@@ -5,7 +5,7 @@
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
-branch="black-powershell-st-dotfiles"
+branch="maleficent-st-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
@@ -20,7 +20,7 @@ error() {
 }
 
 welcomemsg() {
-	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black Powershell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
+	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Malificent Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
 
 getuserandpass() {
@@ -119,7 +119,7 @@ setup_dwm() {
 
 set_background() {
 	whiptail --infobox "Setting background..." 7 60
-	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
+	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/Maleficent01.png
 }
 
 
@@ -127,7 +127,6 @@ install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
- 	echo "Installation Complete <3 Log in as $name using dwm" 
 }
 
 finalize() {

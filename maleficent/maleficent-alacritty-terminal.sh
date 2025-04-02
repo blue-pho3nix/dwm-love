@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM 
-# w/ ST terminal
+# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM
+# w/ Alacritty terminal 
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
-branch="black-powershell-st-dotfiles"
+branch="maleficent-alacritty-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
@@ -20,7 +20,7 @@ error() {
 }
 
 welcomemsg() {
-	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black Powershell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
+	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Malificent Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
 
 getuserandpass() {
@@ -65,7 +65,7 @@ installbase() {
 	echo "$LINE5" | sudo tee -a "$SOURCES_FILE" > /dev/null
 	
         sudo apt-get update
-	sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev whiptail curl wget sudo zsh git build-essential feh alacritty xorg xserver-xorg x11-utils xinit x11-xserver-utils fonts-league-mono  fonts-font-awesome fonts-dejavu  bc xcompmgr x11-utils arandr dosfstools libnotify-bin dunst calcurse exfatprogs nsxiv xwallpaper ffmpeg ffmpegthumbnailer gnome-keyring neovim mpd mpc mpv man-db ncmpcpp newsboat fonts-noto fonts-noto-color-emoji ntfs-3g wireplumber pipewire-pulse pulsemixer sc-im maim abook unclutter unzip lynx xcape xclip xdotool yt-dlp zathura poppler-utils mediainfo atool fzf task-spooler socat moreutils tesseract-ocr-eng tesseract-ocr tesseract-ocr-eng suckless-tools dwm firefox-esr      
+	sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev whiptail curl wget sudo zsh git build-essential feh alacritty xorg xserver-xorg x11-utils xinit x11-xserver-utils fonts-league-mono  fonts-font-awesome fonts-dejavu  bc xcompmgr x11-utils arandr dosfstools libnotify-bin dunst calcurse exfatprogs nsxiv xwallpaper ffmpeg ffmpegthumbnailer gnome-keyring neovim mpd mpc mpv man-db ncmpcpp newsboat fonts-noto fonts-noto-color-emoji ntfs-3g wireplumber pipewire-pulse pulsemixer sc-im maim abook unclutter unzip lynx xcape xclip xdotool yt-dlp zathura poppler-utils mediainfo atool fzf task-spooler socat moreutils tesseract-ocr-eng tesseract-ocr tesseract-ocr-eng suckless-tools dwm firefox-esr   
 }
 
 clone_dotfiles() {
@@ -73,7 +73,7 @@ clone_dotfiles() {
 	sudo -u "$name" git clone --depth 1 -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
-        rm -rf "/home/$name/.git"
+  rm -rf "/home/$name/.git"
 	rm "/home/$name/README.md"
 }
 
@@ -119,15 +119,13 @@ setup_dwm() {
 
 set_background() {
 	whiptail --infobox "Setting background..." 7 60
-	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
+	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/Maleficent01.png
 }
 
 
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
-	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
- 	echo "Installation Complete <3 Log in as $name using dwm" 
 }
 
 finalize() {
