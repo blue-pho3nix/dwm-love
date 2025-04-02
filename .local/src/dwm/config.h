@@ -21,7 +21,7 @@ static char *fonts[]          = { "NerdFontMono-Regular:size=14", "SymbolsNerdFo
 static char normbgcolor[]           = "#000000"; // Exterior BG
 static char normbordercolor[]       = "#000000";
 static char normfgcolor[]           = "#FFFF4E";
-static char selfgcolor[]            = "#FF361E";
+static char selfgcolor[]            = "#B5DCFF";
 static char selbordercolor[]        = "#B5DCFF";
 static char selbgcolor[]            = "#000000";
 static char *colors[][3] = {
