@@ -12,6 +12,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-male
 ```
 
 ### w/ Alacritty Terminal
+![image](https://github.com/user-attachments/assets/9ea8513d-493e-479d-89fe-18c5472625d2)
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-maleficent-theme/maleficent/maleficent-alacritty-terminal.sh && sudo bash maleficent-alacritty-terminal.sh
