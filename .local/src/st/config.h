@@ -113,28 +113,28 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-        "#000000", /* 0: black   */
-        "#FF6C60", /* 1: red     */
-        "#FF6C60", /* 2: green   */
-        "#FFFFB6", /* 3: yellow  */
-        "#96CBFE", /* 4: blue    */
-        "#FF73FD", /* 5: magenta */
-        "#C6C5FE", /* 6: cyan    */
-        "#EEEEEE", /* 7: white   */
-        "#7C7C7C", /* 8: bright black */
-        "#FFB6B0", /* 9: bright red */
-        "#CEFFAC", /* 10: bright green */
-        "#FFFF4E", /* 11: bright yellow */
-        "#B5DCFF", /* 12: bright blue */
-        "#FF9CFE", /* 13: bright magenta */
-        "#DFDFFE", /* 14: bright cyan */
-        "#FFFFFF", /* 15: bright white */
+        "#041A3B", /* 0: black   */
+        "#E1321A", /* 1: red     */
+        "#0071FF", /* 2: green   */
+        "#FFC005", /* 3: yellow  */
+        "#729FCF", /* 4: blue    */
+        "#EC0048", /* 5: magenta */
+        "#0071FF", /* 6: cyan    */
+        "#F2F2F2", /* 7: white   */
+        "#5D5D5D", /* 8: bright black */
+        "#FF361E", /* 9: bright red */
+        "#7BC91F", /* 10: bright green */
+        "#FFD00A", /* 11: bright yellow */
+        "#0071FF", /* 12: bright blue */
+        "#FF1D62", /* 13: bright magenta */
+        "#4BB8FD", /* 14: bright cyan */
+        "#A020F0", /* 15: bright white */
         [255] = 0,
         /* more colors can be added after 255 to use with DefaultXX */
-        "#B5DCFF", /* 12 -> cursor */
-        "#B5DCFF", /* 12  -> rev cursor*/
-        "#000000", /* 0 -> bg */
-        "#B5DCFF", /* 0 -> fg */
+        "#F2F2F2", /* 7 -> cursor */
+        "#F2F2F2", /* 7 -> rev cursor*/
+        "#041A3B", /* 0 -> bg */
+        "#729FCF", /* 4 -> fg */
 
 };
 
@@ -143,10 +143,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 11;
+unsigned int defaultfg = 4;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 12;
-unsigned int defaultrcs = 12;
+unsigned int defaultcs = 7;
+unsigned int defaultrcs = 7;
 unsigned int background = 0;
 
 /*
