@@ -130,6 +130,9 @@ install_ohmyzsh() {
  	echo "Installation Complete <3 Log in as $name using dwm" 
 }
 
+finalize() {
+	whiptail --infobox "Installation Complete <3 Log in as $name using dwm" 7 60
+}
 
 ### MAIN SCRIPT ###
 [ "$EUID" -ne 0 ] && error "Please run as root."
@@ -144,3 +147,4 @@ configure_system
 setup_dwm
 set_background
 install_ohmyzsh
+finalize
