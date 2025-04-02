@@ -1,11 +1,11 @@
 
 # Install Maleficent on Kali
 
-![image](https://github.com/user-attachments/assets/828ef276-8896-469c-94f4-378538d5d8e7)
 
 ## 1. Get and run the script
 
 ### w/ ST Terminal
+![2025-04-01_21-13](https://github.com/user-attachments/assets/71cd74c3-a1e0-49a6-9b21-0d331447b3e0)
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-maleficent-theme/maleficent/maleficent-st-terminal.sh && sudo bash maleficent-st-terminal.sh
