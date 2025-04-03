@@ -6,6 +6,7 @@
 ## 1. Get and run the script
 
 ### w/ ST Terminal
+![image](https://github.com/user-attachments/assets/f7203d5f-03f8-401d-a5f4-b913d334219b)
 
 
 ```
