@@ -9,7 +9,7 @@
 
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-gits/ghost-in-the-shell/ghost-in-the-shell-st-terminal-install.sh && sudo bash ghost-in-the-shell-st-terminal-install.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-st-terminal-install.sh && sudo bash ghost-in-the-shell-st-terminal-install.sh
 ```
 
 ### w/ Alacritty Terminal
