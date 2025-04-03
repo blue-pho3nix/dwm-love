@@ -1,4 +1,4 @@
-# Dotfiles for Maleficent DWM Rice w/ Alacritty Terminal 
+# Dotfiles for Ghost in the Shell DWM Rice w/ Alacritty Terminal 
 DWM Love
 
-![image](https://github.com/user-attachments/assets/828ef276-8896-469c-94f4-378538d5d8e7)
+![image1](https://github.com/user-attachments/assets/5acf149e-cf2d-474f-ac6b-1f7a8a18bc1f)
