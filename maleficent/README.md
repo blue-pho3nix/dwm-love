@@ -30,13 +30,13 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-male
 ![image](https://github.com/user-attachments/assets/f32bb50f-72d9-4749-b3c5-def740e9582c)
 
 ## If you just want the dotfiles, you can get em here:
-- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-st-dotfiles)
+- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/maleficent-st-dotfiles)
 
 ```
 git clone -b maleficent-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
 ```
 
-- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-alacritty-dotfiles)
+- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/maleficent-alacritty-dotfiles)
 
 ```
 git clone -b maleficent-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
