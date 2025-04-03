@@ -1,4 +1,3 @@
-# Dotfiles for Maleficent DWM Rice w/ ST Terminal 
+# Dotfiles for Ghost in the Shell DWM Rice w/ ST Terminal 
 DWM Love
 
-![image](https://github.com/user-attachments/assets/828ef276-8896-469c-94f4-378538d5d8e7)
