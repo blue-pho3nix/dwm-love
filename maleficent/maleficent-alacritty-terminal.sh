@@ -46,26 +46,16 @@ adduserandpass() {
 
 installbase() {
 	whiptail --infobox "Installing base packages..." 7 60
-
-        # File to modify
-        SOURCES_FILE="/etc/apt/sources.list"
-
-        LINE1="# See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/"
-        LINE2="#deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
-        LINE3="deb https://mirror.math.princeton.edu/pub/kali/ kali-rolling main contrib non-free non-free-firmware"
-        LINE4="# Additional line for source packages"
-        LINE5="# deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
-
-        # Check if lines already exist in the file, and add them if not
-        sudo rm "$SOURCES_FILE"
-	echo "$LINE1" | sudo tee -a "$SOURCES_FILE" > /dev/null
-        echo "$LINE2" | sudo tee -a "$SOURCES_FILE" > /dev/null
-        echo "$LINE3" | sudo tee -a "$SOURCES_FILE" > /dev/null
-        echo "$LINE4" | sudo tee -a "$SOURCES_FILE" > /dev/null
-	echo "$LINE5" | sudo tee -a "$SOURCES_FILE" > /dev/null
 	
         sudo apt-get update
-	sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev whiptail curl wget sudo zsh git build-essential feh alacritty xorg xserver-xorg x11-utils xinit x11-xserver-utils fonts-league-mono  fonts-font-awesome fonts-dejavu  bc xcompmgr x11-utils arandr dosfstools libnotify-bin dunst calcurse exfatprogs nsxiv xwallpaper ffmpeg ffmpegthumbnailer gnome-keyring neovim mpd mpc mpv man-db ncmpcpp newsboat fonts-noto fonts-noto-color-emoji ntfs-3g wireplumber pipewire-pulse pulsemixer sc-im maim abook unclutter unzip lynx xcape xclip xdotool yt-dlp zathura poppler-utils mediainfo atool fzf task-spooler socat moreutils tesseract-ocr-eng tesseract-ocr tesseract-ocr-eng suckless-tools dwm firefox-esr   
+	if ! sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev whiptail curl wget sudo zsh git build-essential feh alacritty xorg xserver-xorg x11-utils xinit x11-xserver-utils fonts-league-mono  fonts-font-awesome fonts-dejavu  bc xcompmgr x11-utils arandr dosfstools libnotify-bin dunst calcurse exfatprogs nsxiv xwallpaper ffmpeg ffmpegthumbnailer gnome-keyring neovim mpd mpc mpv man-db ncmpcpp newsboat fonts-noto fonts-noto-color-emoji ntfs-3g wireplumber pipewire-pulse pulsemixer sc-im maim abook unclutter unzip lynx xcape xclip xdotool yt-dlp zathura poppler-utils mediainfo atool fzf task-spooler socat moreutils tesseract-ocr-eng tesseract-ocr tesseract-ocr-eng suckless-tools dwm firefox-esr; then      
+                echo "Installation failed. Attempting to fix missing dependencies..."
+                sudo apt-get --fix-broken install -y
+	        echo "Retrying installation..."
+                sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev whiptail curl wget sudo zsh git build-essential feh alacritty xorg xserver-xorg x11-utils xinit x11-xserver-utils fonts-league-mono  fonts-font-awesome fonts-dejavu  bc xcompmgr x11-utils arandr dosfstools libnotify-bin dunst calcurse exfatprogs nsxiv xwallpaper ffmpeg ffmpegthumbnailer gnome-keyring neovim mpd mpc mpv man-db ncmpcpp newsboat fonts-noto fonts-noto-color-emoji ntfs-3g wireplumber pipewire-pulse pulsemixer sc-im maim abook unclutter unzip lynx xcape xclip xdotool yt-dlp zathura poppler-utils mediainfo atool fzf task-spooler socat moreutils tesseract-ocr-eng tesseract-ocr tesseract-ocr-eng suckless-tools dwm firefox-esr
+        else
+	        echo "Installation successful!"
+	fi
 }
 
 clone_dotfiles() {

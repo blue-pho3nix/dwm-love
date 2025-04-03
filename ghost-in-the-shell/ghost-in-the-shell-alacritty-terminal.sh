@@ -5,7 +5,7 @@
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
-branch="black-powershell-alacritty-dotfiles"
+branch="ghost-in-the-shell-alacritty-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
@@ -20,7 +20,7 @@ error() {
 }
 
 welcomemsg() {
-	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black Powershell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
+	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Ghost in the Shell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
 
 getuserandpass() {
@@ -109,7 +109,7 @@ setup_dwm() {
 
 set_background() {
 	whiptail --infobox "Setting background..." 7 60
-	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
+	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/ghost-in-the-shell.png
 }
 
 

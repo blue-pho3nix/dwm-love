@@ -20,4 +20,8 @@ Enjoy! <3 <br>
 
 ### Maleficent
 ![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
-[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-powershell)
+[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)
+
+### Ghost in the Shell
+![image1](https://github.com/user-attachments/assets/2e9dfd7e-9ecb-4d0d-8a25-d4ae7509bc36)
+[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)

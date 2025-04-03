@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM
-# w/ Alacritty terminal 
+# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM 
+# w/ ST terminal
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
-branch="black-powershell-alacritty-dotfiles"
+branch="ghost-in-the-shell-st-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
@@ -20,7 +20,7 @@ error() {
 }
 
 welcomemsg() {
-	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black Powershell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
+	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Ghost in the Shell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
 
 getuserandpass() {
@@ -63,7 +63,7 @@ clone_dotfiles() {
 	sudo -u "$name" git clone --depth 1 -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
-  rm -rf "/home/$name/.git"
+        rm -rf "/home/$name/.git"
 	rm "/home/$name/README.md"
 }
 
@@ -109,13 +109,14 @@ setup_dwm() {
 
 set_background() {
 	whiptail --infobox "Setting background..." 7 60
-	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/virginia-tudorancea-Utqq2PId0UE-unsplash.jpg
+	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/ghost-in-the-shell.png
 }
 
 
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
+	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
 }
 
 finalize() {
