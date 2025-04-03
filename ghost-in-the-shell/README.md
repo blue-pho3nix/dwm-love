@@ -17,7 +17,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/gho
 ![image1](https://github.com/user-attachments/assets/8e39aaab-5791-464c-9d0e-ce077f85605d)
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-st-terminal-install.sh && sudo bash ghost-in-the-shell-alacritty-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-alacritty-terminal-install.sh && sudo bash ghost-in-the-shell-alacritty-terminal.sh
 ```
 
 ## 2. Log out and login using `DWM`
