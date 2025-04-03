@@ -10,31 +10,31 @@ y = 10
 size = 12.0
 
 [colors.primary]
-background = "#041A3B"
-foreground = "#729FCF"
+background = "#4c0a0d"
+foreground = "#fef8f8"
 
 [colors.cursor]
-cursor = "#F2F2F2"
+cursor = "#f61e29"
 
 [colors.normal]
-black = "#303030"
-red = "#E1321A"
-green = "#0071FF"
-yellow = "#FFC005"
-blue = "#729FCF"
-magenta = "#EC0048"
-cyan = "#0071FF"
-white = "#F2F2F2"
+black = "#4c0a0d"
+red = "#f61e29"
+green = "#a9ff04"
+yellow = "#f43574"
+blue = "#6260fa"
+magenta = "#fa58f5"
+cyan = "#8d58fd"
+white = "#f9edee"
 
 [colors.bright]
-black = "#5D5D5D"
-red = "#FF361E"
-green = "#7BC91F"
-yellow = "#FFD00A"
-blue = "#0071FF"
-magenta = "#FF1D62"
-cyan = "#4BB8FD"
-white = "#A020F0"
+black = "#120001"
+red = "#f6686f"
+green = "#ccfd6c"
+yellow = "#f5719d"
+blue = "#8584ff"
+magenta = "#fa8bf7"
+cyan = "#a47afc"
+white = "#fef8f8"
 
 [cursor.style]
 shape = "Beam"
