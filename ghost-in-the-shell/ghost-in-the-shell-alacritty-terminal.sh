@@ -116,6 +116,9 @@ set_background() {
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
+        rm /home/$name/.oh-my-zsh/themes/darkblood.zsh-theme
+        mv /home/$name/.config/zsh/darkblood.zsh-theme /home/$name/.oh-my-zsh/themes/darkblood.zsh-theme
+	rm /home/$name/.zshrc
 }
 
 finalize() {
