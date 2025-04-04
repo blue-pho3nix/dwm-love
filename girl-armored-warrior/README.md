@@ -11,7 +11,7 @@
 ### w/ ST Terminal
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/girl-armored-warrior/girl-armored-warrior-st-terminal.sh && sudo bash girl-armored-warrior-st-terminal-install.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/girl-armored-warrior/girl-armored-warrior-st-terminal.sh && sudo bash girl-armored-warrior-st-terminal.sh
 ```
 
 ### w/ Alacritty Terminal
