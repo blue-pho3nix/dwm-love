@@ -1,6 +1,6 @@
 
 
-# Install Maleficent on Kali
+# Install Ghost in the Shell on Kali
 
 
 ## 1. Get and run the script
