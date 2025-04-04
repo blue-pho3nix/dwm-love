@@ -8,14 +8,14 @@
 ![2025-04-01_21-13](https://github.com/user-attachments/assets/71cd74c3-a1e0-49a6-9b21-0d331447b3e0)
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-maleficent-theme/maleficent/maleficent-st-terminal.sh && sudo bash maleficent-st-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/maleficent/maleficent-st-terminal.sh && sudo bash maleficent-st-terminal.sh
 ```
 
 ### w/ Alacritty Terminal
 ![image](https://github.com/user-attachments/assets/9ea8513d-493e-479d-89fe-18c5472625d2)
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/add-maleficent-theme/maleficent/maleficent-alacritty-terminal.sh && sudo bash maleficent-alacritty-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/maleficent/maleficent-alacritty-terminal.sh && sudo bash maleficent-alacritty-terminal.sh
 ```
 
 ## 2. Log out and login using `DWM`
