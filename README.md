@@ -8,9 +8,29 @@ If you're using Virtualbox, you can remove `vmware-user` from `.xprofile`.
 
 Enjoy! <3 <br>
 
+
+
+## Change I made to LARBS
+
+MOD J/M changes the master window size
+
+## Somethings you might want to know
+
+How to change the background image 
+I made a `.config/wallpaper` file... incase you wanna use it
+Run
+```
+setbg /path/to/file
+```
+
+Where is my zshrc file?
+- On ST terminal it's in `~/.zshrc`
+- On Alacritty termainal it's in `.config/zsh/.zshrc`
+
 ## Kali DWM Installation Instructions:
 1. Pick a theme
 2. Goto the theme's folder for install instructions
+
 
 ## Themes:
 ### Black Powershell
