@@ -113,28 +113,28 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-        "#4c0a0d", /* 0: black   */
-        "#f61e29", /* 1: red     */
-        "#a9ff04", /* 2: green   */
-        "#f43574", /* 3: yellow  */
-        "#6260fa", /* 4: blue    */
-        "#fa58f5", /* 5: magenta */
-        "#8d58fd", /* 6: cyan    */
-        "#f9edee", /* 7: white   */
-        "#120001", /* 8: bright black */
-        "#f6686f", /* 9: bright red */
-        "#ccfd6c", /* 10: bright green */
-        "#f5719d", /* 11: bright yellow */
-        "#8584ff", /* 12: bright blue */
-        "#fa8bf7", /* 13: bright magenta */
-        "#a47afc", /* 14: bright cyan */
-        "#fef8f8", /* 15: bright white */
+        "#536a62", /* 0: black   */
+        "#928374", /* 1: red     */
+        "#89fb00", /* 2: green   */
+        "#ffce01", /* 3: yellow  */
+        "#82a79a", /* 4: blue    */
+        "#ff5500", /* 5: magenta */
+        "#83a598", /* 6: cyan    */
+        "#a4ccbd", /* 7: white   */
+        "#201f1e", /* 8: bright black */
+        "#928374", /* 9: bright red */
+        "#89fb00", /* 10: bright green */
+        "#ffce01", /* 11: bright yellow */
+        "#82a79a", /* 12: bright blue */
+        "#ff5500", /* 13: bright magenta */
+        "#83a598", /* 14: bright cyan */
+        "#fbf1c7", /* 15: bright white */
         [255] = 0,
         /* more colors can be added after 255 to use with DefaultXX */
-        "#f61e29", /* 1 -> cursor */
-        "#f61e29", /* 1 -> rev cursor*/
-        "#4c0a0d", /* 0 -> bg */
-        "#fef8f8", /* 15 -> fg */
+        "#928374", /* 1 -> cursor */
+        "#928374", /* 1 -> rev cursor*/
+        "#536a62", /* 0 -> bg */
+        "#a4ccbd", /* 7 -> fg */
 
 };
 
@@ -143,7 +143,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 15;
+unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
 unsigned int defaultcs = 1;
 unsigned int defaultrcs = 1;
