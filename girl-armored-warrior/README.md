@@ -11,14 +11,14 @@
 ### w/ ST Terminal
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/girl-armored-warrior-st-terminal-install.sh && sudo bash girl-armored-warrior-st-terminal-install.sh
+wget  && sudo bash girl-armored-warrior-st-terminal-install.sh
 ```
 
 ### w/ Alacritty Terminal
 
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/girl-armored-warrior-alacritty-terminal.sh && sudo bash girl-armored-warrior-alacritty-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/girl-armored-warrior/girl-armored-warrior-alacritty-terminal.sh && sudo bash girl-armored-warrior-alacritty-terminal.sh
 ```
 
 ## 2. Log out and login using `DWM`
