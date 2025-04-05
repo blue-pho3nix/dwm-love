@@ -46,3 +46,15 @@ Where is my zshrc file?
 ![image](https://github.com/user-attachments/assets/02f7fffc-b7cb-4eb9-980a-d1059aef3b28)
 
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)
+
+### Girl Armored Warrior
+#### w/ ST Terminal
+
+![image](https://github.com/user-attachments/assets/28a05c6f-3088-44b2-b03b-8e314a6a2330)
+
+
+#### w/ Alacritty Terminal
+
+![2025-04-04_17-26](https://github.com/user-attachments/assets/0c0d1a2a-25e5-44cb-94d9-a86b6df54db5)
+
+[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
