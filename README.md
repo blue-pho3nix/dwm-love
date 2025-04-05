@@ -38,14 +38,20 @@ Where is my zshrc file?
 
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-powershell)
 
+---
+
 ### Maleficent
 ![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)
+
+---
 
 ### Ghost in the Shell
 ![image](https://github.com/user-attachments/assets/02f7fffc-b7cb-4eb9-980a-d1059aef3b28)
 
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)
+
+---
 
 ### Girl Armored Warrior
 #### w/ ST Terminal
