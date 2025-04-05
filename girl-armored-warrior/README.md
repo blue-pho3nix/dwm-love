@@ -5,10 +5,10 @@
 
 ## 1. Get and run the script
 
-![2025-04-04_17-26](https://github.com/user-attachments/assets/0c0d1a2a-25e5-44cb-94d9-a86b6df54db5)
-
-
 ### w/ ST Terminal
+
+![image](https://github.com/user-attachments/assets/28a05c6f-3088-44b2-b03b-8e314a6a2330)
+
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/girl-armored-warrior/girl-armored-warrior-st-terminal.sh && sudo bash girl-armored-warrior-st-terminal.sh
@@ -16,6 +16,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/gir
 
 ### w/ Alacritty Terminal
 
+![2025-04-04_17-26](https://github.com/user-attachments/assets/0c0d1a2a-25e5-44cb-94d9-a86b6df54db5)
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/girl-armored-warrior/girl-armored-warrior-alacritty-terminal.sh && sudo bash girl-armored-warrior-alacritty-terminal.sh
