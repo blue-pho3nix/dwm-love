@@ -113,6 +113,8 @@ install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
 	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
+        rm /home/$name/.oh-my-zsh/themes/josh.zsh-theme
+        mv /home/$name/.config/zsh/josh.zsh-theme /home/$name/.oh-my-zsh/themes/josh.zsh-theme
 }
 
 finalize() {
