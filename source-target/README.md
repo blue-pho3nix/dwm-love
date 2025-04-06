@@ -9,7 +9,7 @@
 ### w/ ST Terminal
 
 ```
-wget  && sudo bash 
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/source-target/source-target-st-terminal.sh && sudo bash source-target-st-terminal.sh
 ```
 
 ### w/ Alacritty Terminal
