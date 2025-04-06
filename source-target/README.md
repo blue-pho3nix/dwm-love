@@ -38,7 +38,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/sou
 git clone -b source-target-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
 ```
 
-- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/source-targe-alacritty-dotfiles)
+- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/source-target-alacritty-dotfiles)
 
 ```
 git clone -b source-target-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
