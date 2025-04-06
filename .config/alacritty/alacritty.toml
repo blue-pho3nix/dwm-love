@@ -8,33 +8,35 @@ y = 10
 
 [font]
 size = 12.0
+normal = { family = "mono", style = "Regular" }
 
 [colors.primary]
-background = "#4c0a0d"
-foreground = "#fef8f8"
+background = "#0e1111"
+foreground = "#dee3e3"
+
 
 [colors.cursor]
-cursor = "#f61e29"
+cursor = "#505654"
 
 [colors.normal]
-black = "#4c0a0d"
-red = "#f61e29"
-green = "#a9ff04"
-yellow = "#f43574"
-blue = "#6260fa"
-magenta = "#fa58f5"
-cyan = "#8d58fd"
-white = "#f9edee"
+black = "#2e3030"
+red = "#db3f60"
+green = "#505654"
+yellow = "#dcc847"
+blue = "#0e5ad7"
+magenta = "#ef8b50"
+cyan = "#276c85"
+white = "#dee3e3"
 
 [colors.bright]
-black = "#120001"
-red = "#f6686f"
-green = "#ccfd6c"
-yellow = "#f5719d"
-blue = "#8584ff"
-magenta = "#fa8bf7"
-cyan = "#a47afc"
-white = "#fef8f8"
+black = "#1a1e1e"
+red = "#fd829c"
+green = "#919b98"
+yellow = "#fbe765"
+blue = "#5292fb"
+magenta = "#fda977"
+cyan = "#79dbfe"
+white = "#eef4f4"
 
 [cursor.style]
 shape = "Beam"
