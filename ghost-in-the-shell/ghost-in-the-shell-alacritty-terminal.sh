@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM
+# Blue Pho3nix's Auto Rice Script for Kali DWM
 # w/ Alacritty terminal 
 
 ### VARIABLES ###
