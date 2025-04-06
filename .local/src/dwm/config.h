@@ -12,18 +12,18 @@ static unsigned int snap      = 16;       /* snap pixel */
 static unsigned int gappih    = 5;       /* horiz inner gap between windows */
 static unsigned int gappiv    = 5;       /* vert inner gap between windows */
 static unsigned int gappoh    = 15;       /* horiz outer gap between windows and screen edge */
-static unsigned int gappov    = 15;       /* vert outer gap between windows and screen edge */
+static unsigned int gappov    = 10;       /* vert outer gap between windows and screen edge */
 static int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "NerdFontMono-Regular:size=14", "SymbolsNerdFontMono-Regular:pixelsize=18:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#4c0a0d"; // Exterior BG
-static char normbordercolor[]       = "#000000";
-static char normfgcolor[]           = "#f61e29";
-static char selfgcolor[]            = "#6260fa";
-static char selbordercolor[]        = "#f61e29";
-static char selbgcolor[]            = "#4c0a0d";
+static char normbgcolor[]           = "#0e1111"; // Exterior BG
+static char normbordercolor[]       = "#0e1111";
+static char normfgcolor[]           = "#919b98";
+static char selfgcolor[]            = "#5292fb";
+static char selbordercolor[]        = "#5292fb";
+static char selbgcolor[]            = "#0e1111";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -35,7 +35,7 @@ typedef struct {
 	const void *cmd;
 } Sp;
 const char *spcmd1[] = {TERMINAL, "-n", "spterm", "-g", "120x34", NULL };
-const char *spcmd2[] = {TERMINAL, "-n", "spcalc", "-f", "NerdFontMono-Regular:size=14", "-g", "50x20", "-e", "bc", "-lq", NULL };
+const char *spcmd2[] = {TERMINAL, "-n", "spcalc", "-f", "mono:size=12", "-g", "50x20", "-e", "bc", "-lq", NULL };
 static Sp scratchpads[] = {
 	/* name          cmd  */
 	{"spterm",      spcmd1},
@@ -43,7 +43,7 @@ static Sp scratchpads[] = {
 };
 
 /* tagging */
-static const char *tags[] = { "󰈸", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "Kali", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
