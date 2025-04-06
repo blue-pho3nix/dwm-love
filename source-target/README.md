@@ -1,7 +1,7 @@
 
 
 
-# Install Girl Armored Warrior on Kali
+# Install Source Target on Kali
 
 
 ## 1. Get and run the script
