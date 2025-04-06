@@ -7,7 +7,7 @@
  */
 static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
-static int borderpx = 4;
+static int borderpx = 8;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -113,28 +113,28 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-        "#4c0a0d", /* 0: black   */
-        "#f61e29", /* 1: red     */
-        "#a9ff04", /* 2: green   */
-        "#f43574", /* 3: yellow  */
-        "#6260fa", /* 4: blue    */
-        "#fa58f5", /* 5: magenta */
-        "#8d58fd", /* 6: cyan    */
-        "#f9edee", /* 7: white   */
-        "#120001", /* 8: bright black */
-        "#f6686f", /* 9: bright red */
-        "#ccfd6c", /* 10: bright green */
-        "#f5719d", /* 11: bright yellow */
-        "#8584ff", /* 12: bright blue */
-        "#fa8bf7", /* 13: bright magenta */
-        "#a47afc", /* 14: bright cyan */
-        "#fef8f8", /* 15: bright white */
+        "#0e1111", /* 0: black   */
+        "#db3f60", /* 1: red     */
+        "#505654", /* 2: green   */
+        "#dcc847", /* 3: yellow  */
+        "#0e5ad7", /* 4: blue    */
+        "#ef8b50", /* 5: magenta */
+        "#276c85", /* 6: cyan    */
+        "#dee3e3", /* 7: white   */
+        "#1a1e1e", /* 8: bright black */
+        "#fd829c", /* 9: bright red */
+        "#919b98", /* 10: bright green */
+        "#fbe765", /* 11: bright yellow */
+        "#5292fb", /* 12: bright blue */
+        "#fda977", /* 13: bright magenta */
+        "#79dbfe", /* 14: bright cyan */
+        "#eef4f4", /* 15: bright white */
         [255] = 0,
         /* more colors can be added after 255 to use with DefaultXX */
-        "#f61e29", /* 1 -> cursor */
-        "#f61e29", /* 1 -> rev cursor*/
-        "#4c0a0d", /* 0 -> bg */
-        "#fef8f8", /* 15 -> fg */
+        "#505654", /* 2 -> cursor */
+        "#505654", /* 2 -> rev cursor*/
+        "#0e1111", /* 0 -> bg */
+        "#dee3e3", /* 7 -> fg */
 
 };
 
@@ -143,10 +143,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 15;
+unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 1;
-unsigned int defaultrcs = 1;
+unsigned int defaultcs = 2;
+unsigned int defaultrcs = 2;
 unsigned int background = 0;
 
 /*
