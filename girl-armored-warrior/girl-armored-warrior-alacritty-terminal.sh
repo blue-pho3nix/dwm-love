@@ -10,9 +10,6 @@ export TERM=ansi
 
 ### FUNCTIONS ###
 
-installpkg() {
-	apt-get install -y "$1" >/dev/null 2>&1
-}
 
 error() {
 	printf "%s\n" "$1" >&2
