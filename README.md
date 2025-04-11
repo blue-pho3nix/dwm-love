@@ -33,10 +33,10 @@ Where is my zshrc file?
 
 
 ## Themes:
-### Black Powershell
+### Black Borland
 ![image](https://github.com/user-attachments/assets/10538829-32da-47b0-8969-77167a429831)
 
-[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-powershell)
+[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-borland)
 
 ---
 
