@@ -13,7 +13,7 @@ sudo apt-get update && sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev
 ### w/ ST Terminal
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-powershell/black-borland-st-terminal-install.sh && sudo bash black-borland-st-terminal-install.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-borland/black-borland-st-terminal-install.sh && sudo bash black-borland-st-terminal-install.sh
 ```
 
 ### w/ Alacritty Terminal
