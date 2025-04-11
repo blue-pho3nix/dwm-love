@@ -5,7 +5,7 @@
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
-branch="black-powershell-alacritty-dotfiles"
+branch="black-borland-alacritty-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
