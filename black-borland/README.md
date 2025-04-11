@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 ### w/ Alacritty Terminal
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-powershell/black-borland-alacritty-terminal.sh && sudo bash black-borland-alacritty-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-borland/black-borland-alacritty-terminal.sh && sudo bash black-borland-alacritty-terminal.sh
 ```
 
 ## 2. Log out and login using `DWM`
