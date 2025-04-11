@@ -17,7 +17,7 @@ MOD J/M changes the master window size
 ## Somethings you might want to know
 
 How to change the background image 
-I made a `.config/wallpaper` file... incase you wanna use it
+I made a `.config/wallpaper` file... incase you wanna use it. <br>
 Run
 ```
 setbg /path/to/file
