@@ -3,7 +3,7 @@
 I made scripts to install various DWM themes on Kali. <br>
 These scripts use LARBS: https://larbs.xyz/larbs.sh <br>
 
-Note: I use VMware. The `.xprofile` file has settings that make copy paste possible in DWM.<br> 
+> Note: I use VMware. The `.xprofile` file has settings that make copy paste possible in DWM.<br> 
 If you're using Virtualbox, you can remove `vmware-user` from `.xprofile`.
 
 Enjoy! <3 <br>
