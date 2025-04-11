@@ -47,7 +47,7 @@ clone_dotfiles() {
 	sudo -u "$name" git clone --depth 1 -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
-  rm -rf "/home/$name/.git"
+        rm -rf "/home/$name/.git"
 	rm "/home/$name/README.md"
 }
 
