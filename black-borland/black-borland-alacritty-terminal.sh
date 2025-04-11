@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Blue Pho3nix's Auto Rice Script for Black Powershell Kali DWM 
-# w/ ST terminal
+# Blue Pho3nix's Auto Rice Script for Kali DWM
+# w/ Alacritty terminal 
 
 ### VARIABLES ###
 dotfilesrepo="https://github.com/blue-pho3nix/dwm-love.git"
-branch="black-powershell-st-dotfiles"
+branch="black-borland-alacritty-dotfiles"
 export TERM=ansi
 
 ### FUNCTIONS ###
@@ -20,7 +20,7 @@ error() {
 }
 
 welcomemsg() {
-	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black Powershell Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
+	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Black borland Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
 
 getuserandpass() {
@@ -63,7 +63,7 @@ clone_dotfiles() {
 	sudo -u "$name" git clone --depth 1 -b "$branch" "$dotfilesrepo" "/home/$name/dotfiles"
 	sudo -u "$name" cp -r "/home/$name/dotfiles/." "/home/$name"
 	rm -rf "/home/$name/dotfiles"
-        rm -rf "/home/$name/.git"
+  rm -rf "/home/$name/.git"
 	rm "/home/$name/README.md"
 }
 
@@ -116,8 +116,7 @@ set_background() {
 install_ohmyzsh() {
 	whiptail --infobox "Installing Oh My Zsh..." 7 60
 	sudo -u $name sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 2>/dev/null
-	mv /home/$name/.config/zsh/.zshrc /home/$name/.zshrc
- 	echo "Installation Complete <3 Log in as $name using dwm" 
+ 	rm /home/$name/.zshrc
 }
 
 finalize() {
