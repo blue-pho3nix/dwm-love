@@ -33,14 +33,14 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 
 
 ## If you just want the dotfiles, you can get em here:
-- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-st-dotfiles)
+- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-borland-st-dotfiles)
 
 ```
-git clone -b black-powershell-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
+git clone -b black-borland-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
 ```
 
-- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-powershell-alacritty-dotfiles)
+- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-borland-alacritty-dotfiles)
 
 ```
-git clone -b black-powershell-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
+git clone -b black-borland-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
 ```
