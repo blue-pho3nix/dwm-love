@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/gir
 
 ### w/ Alacritty Terminal
 
-![2025-04-04_17-26](https://github.com/user-attachments/assets/0c0d1a2a-25e5-44cb-94d9-a86b6df54db5)
+![image](https://github.com/user-attachments/assets/2c47b31e-5b56-4c5a-8a1c-23cc2e8266c8)
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/girl-armored-warrior/girl-armored-warrior-alacritty-terminal.sh && sudo bash girl-armored-warrior-alacritty-terminal.sh
