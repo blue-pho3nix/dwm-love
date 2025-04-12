@@ -114,7 +114,7 @@ float alphaUnfocus;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
         "#536a62", /* 0: black   */
-        "#928374", /* 1: red     */
+        "#ff002b", /* 1: red     */
         "#89fb00", /* 2: green   */
         "#ffce01", /* 3: yellow  */
         "#82a79a", /* 4: blue    */
@@ -122,7 +122,7 @@ static const char *colorname[] = {
         "#83a598", /* 6: cyan    */
         "#a4ccbd", /* 7: white   */
         "#201f1e", /* 8: bright black */
-        "#928374", /* 9: bright red */
+        "#ff002b", /* 9: bright red */
         "#89fb00", /* 10: bright green */
         "#ffce01", /* 11: bright yellow */
         "#82a79a", /* 12: bright blue */
