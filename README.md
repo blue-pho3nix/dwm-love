@@ -61,7 +61,7 @@ Where is my zshrc file?
 
 #### w/ Alacritty Terminal
 
-![2025-04-04_17-26](https://github.com/user-attachments/assets/0c0d1a2a-25e5-44cb-94d9-a86b6df54db5)
+![image](https://github.com/user-attachments/assets/8e510a36-3e80-403f-a6e7-99fb7727d680)
 
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
 
