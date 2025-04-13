@@ -56,7 +56,7 @@ Where is my zshrc file?
 ### Girl Armored Warrior
 #### w/ ST Terminal
 
-![image](https://github.com/user-attachments/assets/28a05c6f-3088-44b2-b03b-8e314a6a2330)
+![image](https://github.com/user-attachments/assets/4c491e5f-39a9-450a-962d-ec7d461ad2be)
 
 
 #### w/ Alacritty Terminal
