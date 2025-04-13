@@ -25,7 +25,7 @@ setbg /path/to/file
 
 Where is my zshrc file?
 - On ST terminal it's in `~/.zshrc`
-- On Alacritty termainal it's in `.config/zsh/.zshrc`
+- On Alacritty termainal it's in `~/.config/zsh/.zshrc`
 
 ## Kali DWM Installation Instructions:
 1. Pick a theme
