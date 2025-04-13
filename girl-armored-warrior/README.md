@@ -13,7 +13,7 @@ sudo apt-get update && sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev
 
 ### w/ ST Terminal
 
-![image](https://github.com/user-attachments/assets/28a05c6f-3088-44b2-b03b-8e314a6a2330)
+![image](https://github.com/user-attachments/assets/c285fe26-4453-49a3-b912-96f3bd551a47)
 
 
 ```
