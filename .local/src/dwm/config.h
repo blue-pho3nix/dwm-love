@@ -226,7 +226,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_apostrophe, togglescratch,          {.ui = 1} },
 	/* { MODKEY|ShiftMask,		XK_apostrophe, spawn,                  SHCMD("") }, */
 	{ MODKEY|ShiftMask,		XK_apostrophe, togglesmartgaps,        {0} },
-	{ MODKEY,			XK_Return,     spawn,                  SHCMD("/home/blue/.local/bin/terminal-here.sh") },
+	{ MODKEY,			XK_Return,     spawn,                  SHCMD("terminal-here.sh") },
 	{ MODKEY|ShiftMask,		XK_Return,     togglescratch,          {.ui = 0} },
 
 	{ MODKEY,			XK_z,          incrgaps,               {.i = +3 } },
