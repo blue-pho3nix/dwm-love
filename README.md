@@ -14,7 +14,7 @@ Enjoy! <3 <br>
 - The default web browser is Firefox. This can still be opened with `MOD + w`
 - I didn't install passmenu. So, you can change `MOD + D` to whatever you want.
 - I added `Kick Ass tun0` to the statusbar on most themes. You can change this in `~/.local/bin/statusbar/sb-tun0`
-- You can change the heart/fire icon in the status bar in `~/.local/src/dwm/config.h` after you make any changes to the file run:
+- You can [change the heart/fire icon](https://www.nerdfonts.com/cheat-sheet) in the status bar in `~/.local/src/dwm/config.h` after you make any changes to the file run:
   ```
   cd ~/.local/src/dwm/config.h
   sudo make clean install
