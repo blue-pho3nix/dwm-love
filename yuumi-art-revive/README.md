@@ -1,6 +1,6 @@
 
 
-# Install Tumi Art Revive on Kali
+# Install Yuumi Art Revive on Kali
 
 ## 1. Install the dependencies for LARB, DWM, and lolcat for the `.zshrc`
 > Note: If you get an error stating that a package is missing, change your [Kali Mirror](https://cdimage.kali.org/README?mirrorlist) in `/etc/apt/sources.list`  
@@ -15,7 +15,7 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 
 
 ```
-wget  && sudo bash 
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/yuumi-art-revive/yuumi-art-revive-st-terminal-install.sh && sudo bash yuumi-art-revive-st-terminal-install.sh
 ```
 
 ### w/ Alacritty Terminal
@@ -23,7 +23,7 @@ wget  && sudo bash
 ![image](https://github.com/user-attachments/assets/6e0a1853-18c3-4d45-a36a-78a04e18ce77)
 
 ```
-wget  && sudo bash 
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/yuumi-art-revive/yuumi-art-revive-alacritty-terminal-install.sh && sudo bash yuumi-art-revive-alacritty-terminal-install.sh
 ```
 
 ## 2. Log out and login using `DWM`
