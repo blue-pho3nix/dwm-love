@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 mka() {
- mkdir -p "$1" && echo "alias $1='cd $(realpath "$1")'" >> ~/.config/zsh/.zshrc && source ~/.config/zsh/.zshrc
+ mkdir -p "$1" && echo "alias $1='cd $(realpath "$1")'" >> ~/.zshrc && source ~/.zshrc
 }
 
 mkcd() { mkdir -p "$1" && cd "$1"; }
