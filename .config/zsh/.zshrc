@@ -104,8 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh
 
 
-lol()
-{
+lol() {
 	if [ -t 1 ]; then
 		"$@" | lolcat
 	else
@@ -134,7 +133,7 @@ for COMMAND in "${COMMANDS[@]}"; do
 done
 
 mka() {
- mkdir -p "$1" && echo "alias $1='cd $(realpath "$1")'" >> ~/.config/zsh/.zshrc && source ~/.config/zsh/.zshrc
+ mkdir -p "$1" && echo "alias $1='cd $(realpath "$1")'" >> ~/.zshrc && source ~/.zshrc
 }
 
 mkcd() { mkdir -p "$1" && cd "$1"; }
