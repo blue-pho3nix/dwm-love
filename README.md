@@ -8,16 +8,14 @@ If you're using Virtualbox, you can remove `vmware-user` from `.xprofile`.
 
 Enjoy! <3 <br>
 
-
-
 ## Changes I made to LARBS
 
 - `MOD + j/m` changes the master window size
-- The default web browser is Firefox. This can still be opened with `Mod + w`
-- I didn't install passmenu. So, you can change `MOD +D` to whatever you want.
+- The default web browser is Firefox. This can still be opened with `MOD + w`
+- I didn't install passmenu. So, you can change `MOD + D` to whatever you want.
 - I added `Kick Ass tun0` to the statusbar on most themes. You can change this in `~/.local/bin/statusbar/sb-tun0`
 
-## Somethings you might want to know
+## Some things you might want to know
 
 ### How do I change the background image? 
 I made a `.config/wallpaper` file... incase you wanna use it. <br>
