@@ -14,6 +14,11 @@ Enjoy! <3 <br>
 - The default web browser is Firefox. This can still be opened with `MOD + w`
 - I didn't install passmenu. So, you can change `MOD + D` to whatever you want.
 - I added `Kick Ass tun0` to the statusbar on most themes. You can change this in `~/.local/bin/statusbar/sb-tun0`
+- You can change the heart/fire icon in the status bar in `~/.local/src/dwm/config.h` after you make any changes to the file run:
+  ```
+  cd ~/.local/src/dwm/config.h
+  sudo make clean install
+  ```
 
 ## Some things you might want to know
 
@@ -33,8 +38,7 @@ Some programs are set to run as `<program> | lolcat`.
 You can remove programs or add them in your `.zshrc` file. Note: not all programs work well w/ lolcat.<br> 
 This is what it looks like: 
 ```bash
-lol()
-{
+lol() {
 	if [ -t 1 ]; then
 		"$@" | lolcat
 	else
@@ -114,3 +118,9 @@ My name is `Blue Pho3nix`.
 ![image](https://github.com/user-attachments/assets/4a4ba33b-f38f-4e29-a1dd-e0a1f4b3c323)
 
 [Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/source-target)
+
+---
+
+#### Yuumi Art Revive
+![image](https://github.com/user-attachments/assets/6e0a1853-18c3-4d45-a36a-78a04e18ce77)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/yuumi-art-revive)
