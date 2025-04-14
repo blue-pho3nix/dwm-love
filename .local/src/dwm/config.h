@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* Constants */
-#define TERMINAL "$HOME/.local/bin/terminal-here.sh"
+#define TERMINAL "st"
 #define TERMCLASS "ST"
 #define BROWSER "firefox"
 #define BAR_TRANS 0  // Disable transparency for the status bar
@@ -226,7 +226,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_apostrophe, togglescratch,          {.ui = 1} },
 	/* { MODKEY|ShiftMask,		XK_apostrophe, spawn,                  SHCMD("") }, */
 	{ MODKEY|ShiftMask,		XK_apostrophe, togglesmartgaps,        {0} },
-	{ MODKEY,			XK_Return,     spawn,                  {.v = termcmd } },
+	{ MODKEY,			XK_Return,     spawn,                  SHCMD("terminal-here.sh") },
 	{ MODKEY|ShiftMask,		XK_Return,     togglescratch,          {.ui = 0} },
 
 	{ MODKEY,			XK_z,          incrgaps,               {.i = +3 } },
