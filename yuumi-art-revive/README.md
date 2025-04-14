@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/yuu
 
 ### w/ Alacritty Terminal
 
-![image](https://github.com/user-attachments/assets/6e0a1853-18c3-4d45-a36a-78a04e18ce77)
+![image](https://github.com/user-attachments/assets/67a1dc77-ce23-4fba-95b4-4a1f7bc01a1f)
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/yuumi-art-revive/yuumi-art-revive-alacritty-terminal-install.sh && sudo bash yuumi-art-revive-alacritty-terminal-install.sh
