@@ -123,5 +123,6 @@ My name is `Blue Pho3nix`.
 ---
 
 #### Yuumi Art Revive
-![image](https://github.com/user-attachments/assets/6e0a1853-18c3-4d45-a36a-78a04e18ce77)
+
+![image](https://github.com/user-attachments/assets/047ca8f7-3331-4b6a-af16-7c9d5891376c)
 [Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/yuumi-art-revive)
