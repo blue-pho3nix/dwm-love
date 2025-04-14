@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="josh"
+ZSH_THEME="dstufft"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -103,7 +103,32 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh
 
+lol() {
+        if [ -t 1 ]; then
+                "$@" | lolcat
+        else
+                "$@"
+        fi
+}
 
+COMMANDS=(
+    ls
+    cat
+    find
+    lf
+    ps
+    ip
+    msfconsole
+    mysql
+    sqlmap
+    gobuster
+    ffuf
+)
+
+for COMMAND in "${COMMANDS[@]}"; do
+    alias "${COMMAND}=lol ${COMMAND}"
+    alias ".${COMMAND}=$(which ${COMMAND})"
+done
 
 mka() {
  mkdir -p "$1" && echo "alias $1='cd $(realpath "$1")'" >> ~/.config/zsh/.zshrc && source ~/.config/zsh/.zshrc
