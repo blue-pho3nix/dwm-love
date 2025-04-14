@@ -103,6 +103,32 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh
 
+lol() {
+        if [ -t 1 ]; then
+                "$@" | lolcat
+        else
+                "$@"
+        fi
+}
+
+COMMANDS=(
+    ls
+    cat
+    find
+    lf
+    ps
+    ip
+    msfconsole
+    mysql
+    sqlmap
+    gobuster
+    ffuf
+)
+
+for COMMAND in "${COMMANDS[@]}"; do
+    alias "${COMMAND}=lol ${COMMAND}"
+    alias ".${COMMAND}=$(which ${COMMAND})"
+done
 
 mka() {
  mkdir -p "$1" && echo "alias $1='cd $(realpath "$1")'" >> ~/.config/zsh/.zshrc && source ~/.config/zsh/.zshrc
