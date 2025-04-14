@@ -10,22 +10,65 @@ Enjoy! <3 <br>
 
 
 
-## Change I made to LARBS
+## Changes I made to LARBS
 
-MOD J/M changes the master window size
+- `MOD + j/m` changes the master window size
+- The default web browser is Firefox. This can still be opened with `Mod + w`
+- I didn't install passmenu. So, you can change `MOD +D` to whatever you want.
+- I added `Kick Ass tun0` to the statusbar on most themes. You can change this in `~/.local/bin/statusbar/sb-tun0`
 
 ## Somethings you might want to know
 
-How to change the background image 
+### How do I change the background image? 
 I made a `.config/wallpaper` file... incase you wanna use it. <br>
 Run
 ```
 setbg /path/to/file
 ```
 
-Where is my zshrc file?
+### Where is my zshrc file?
 - On ST terminal it's in `~/.zshrc`
 - On Alacritty termainal it's in `~/.config/zsh/.zshrc`
+
+### Why am I seeing rainbows?
+Some programs are set to run as `<program> | lolcat`.  
+You can remove programs or add them in your `.zshrc` file. Note: not all programs work well w/ lolcat.<br> 
+This is what it looks like: 
+```bash
+lol()
+{
+	if [ -t 1 ]; then
+		"$@" | lolcat
+	else
+		"$@"
+	fi
+}
+
+COMMANDS=(
+    ls
+    cat
+    fastfetch
+    find
+    lf
+    ps
+    ip
+    msfconsole
+    mysql
+    sqlmap
+    gobuster
+    ffuf
+)
+
+for COMMAND in "${COMMANDS[@]}"; do
+    alias "${COMMAND}=lol ${COMMAND}"
+    alias ".${COMMAND}=$(which ${COMMAND})"
+done
+```
+Add or remove programs under `COMMANDS`.
+
+### What if I have a question?
+If you have any questions, ask me on [Hack Smarter Discord](https://discord.gg/TujAjYXJjr) on the `#🍚⏐rice ` channel.
+My name is `Blue Pho3nix`.
 
 ## Kali DWM Installation Instructions:
 1. Pick a theme
