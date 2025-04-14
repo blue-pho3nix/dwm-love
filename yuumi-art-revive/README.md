@@ -13,6 +13,7 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 
 ### w/ ST Terminal
 
+![image](https://github.com/user-attachments/assets/961e76d4-b96c-4951-a231-78759d9e5e11)
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/yuumi-art-revive/yuumi-art-revive-st-terminal-install.sh && sudo bash yuumi-art-revive-st-terminal-install.sh
