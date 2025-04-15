@@ -15,11 +15,12 @@ Enjoy! <3 <br>
 - I didn't install passmenu. So, you can change `MOD + D` to whatever you want.
 - I added `Kick Ass tun0` to the statusbar on most themes. You can change this in `~/.local/bin/statusbar/sb-tun0`
 - You can [change the heart/fire icon](https://www.nerdfonts.com/cheat-sheet) in the status bar in `~/.local/src/dwm/config.h`.
-  After you make any changes run the following then `MOD + backspace` `leave DMW` and log back in:
+  After you make any changes run the following:
   ```
   cd ~/.local/src/dwm/config.h
   sudo make clean install
   ```
+  Then, `MOD + backspace` `leave DMW` and log back in.
 
 ## Some things you might want to know
 
