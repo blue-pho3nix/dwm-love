@@ -25,7 +25,7 @@ Enjoy! <3 <br>
 ## Some things you might want to know
 
 ### How do I change the background image? 
-I made a `.config/wallpaper` file... incase you wanna use it. <br>
+I made a `.config/wallpaper` directory... incase you wanna use it. <br>
 Run
 ```
 setbg /path/to/file
