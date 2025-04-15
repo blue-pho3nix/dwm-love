@@ -4,7 +4,12 @@ I made scripts to install various DWM themes on Kali. <br>
 These themes use LARBS: https://github.com/LukeSmithxyz/voidrice <br>
 
 > Note: I use VMware. The `.xprofile` file has settings that make copy paste possible in DWM.<br> 
-If you're using Virtualbox, you can remove `vmware-user` from `.xprofile`.
+> If you're using Virtualbox, you can remove `vmware-user` from `.xprofile`.  <br>  
+> Then, add the following at the end of your `.xprofile` file:
+> ```
+> VBoxClient --clipboard &
+> VBoxClient --draganddrop &
+> ```
 
 Enjoy! <3 <br>
 
