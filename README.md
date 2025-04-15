@@ -17,7 +17,7 @@ Enjoy! <3 <br>
 - You can [change the heart/fire icon](https://www.nerdfonts.com/cheat-sheet) in the status bar in `~/.local/src/dwm/config.h`.
   After you make any changes run the following:
   ```
-  cd ~/.local/src/dwm/config.h
+  cd ~/.local/src/dwm/
   sudo make clean install
   ```
   Then, `MOD + backspace` `leave DMW` and log back in.
