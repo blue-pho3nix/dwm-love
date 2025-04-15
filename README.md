@@ -26,9 +26,13 @@ Enjoy! <3 <br>
 
 ### How do I change the background image? 
 I made a `.config/wallpaper` directory... incase you wanna use it. <br>
-Run
+Change the background image with the following command:
 ```
 setbg /path/to/file
+```
+Also, if your background image breaks up... you can run:
+```
+setbg
 ```
 
 ### Where is my zshrc file?
