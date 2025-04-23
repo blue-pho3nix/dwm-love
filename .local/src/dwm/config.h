@@ -20,8 +20,8 @@ static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "NerdFontMono-Regular:size=14", "SymbolsNerdFontMono-Regular:pixelsize=18:antialias=true:autohint=true"  };
 static char normbgcolor[]           = "#4c0a0d"; // Exterior BG
 static char normbordercolor[]       = "#000000";
-static char normfgcolor[]           = "#f61e29";
-static char selfgcolor[]            = "#6260fa";
+static char normfgcolor[]           = "#6260fa";
+static char selfgcolor[]            = "#f61e29";
 static char selbordercolor[]        = "#f61e29";
 static char selbgcolor[]            = "#4c0a0d";
 static char *colors[][3] = {
@@ -43,7 +43,7 @@ static Sp scratchpads[] = {
 };
 
 /* tagging */
-static const char *tags[] = { "󰈸", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
