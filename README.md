@@ -86,7 +86,6 @@ My name is `Blue Pho3nix`.
 ### Themes:
 #### Black Borland
 ![image](https://github.com/user-attachments/assets/10538829-32da-47b0-8969-77167a429831)
-
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-borland)
 
 ---
@@ -101,7 +100,6 @@ My name is `Blue Pho3nix`.
 
 ![image](https://github.com/user-attachments/assets/0c17f776-9f96-4afb-bf5e-5341a81634b6)
 ![image](https://github.com/user-attachments/assets/e8949de7-1596-4ac4-931c-80fe6ad78e88)
-
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)
 
 ---
@@ -115,7 +113,6 @@ My name is `Blue Pho3nix`.
 ##### w/ Alacritty Terminal
 
 ![image](https://github.com/user-attachments/assets/8e510a36-3e80-403f-a6e7-99fb7727d680)
-
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
 
 ---
@@ -124,7 +121,6 @@ My name is `Blue Pho3nix`.
 
 ![image](https://github.com/user-attachments/assets/6a3edf70-e7ad-4ce8-9178-3926bea259cf)
 ![image](https://github.com/user-attachments/assets/4a4ba33b-f38f-4e29-a1dd-e0a1f4b3c323)
-
 [Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/source-target)
 
 ---
