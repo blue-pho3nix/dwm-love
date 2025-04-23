@@ -16,6 +16,7 @@ for program in $autostart; do
 done >/dev/null 2>&1
 
 (sleep 1 && dwmblocks.sh) &
+(sleep 1 && wmname LG3D) &
 
 # Ensure that xrdb has finished running before moving on to start the WM/DE.
 [ -n "$xrdbpid" ] && wait "$xrdbpid"
