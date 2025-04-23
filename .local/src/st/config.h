@@ -113,28 +113,28 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-        "#4c0a0d", /* 0: black   */
-        "#f61e29", /* 1: red     */
-        "#a9ff04", /* 2: green   */
-        "#f43574", /* 3: yellow  */
-        "#6260fa", /* 4: blue    */
-        "#fa58f5", /* 5: magenta */
-        "#8d58fd", /* 6: cyan    */
-        "#f9edee", /* 7: white   */
-        "#120001", /* 8: bright black */
-        "#f6686f", /* 9: bright red */
-        "#ccfd6c", /* 10: bright green */
-        "#f5719d", /* 11: bright yellow */
-        "#8584ff", /* 12: bright blue */
-        "#fa8bf7", /* 13: bright magenta */
-        "#a47afc", /* 14: bright cyan */
-        "#fef8f8", /* 15: bright white */
+        "#030105", /* 0: black   */
+        "#A11825", /* 1: red     */
+        "#D21B25", /* 2: green   */
+        "#EF1F27", /* 3: yellow  */
+        "#F51D28", /* 4: blue    */
+        "#C92962", /* 5: magenta */
+        "#5013A8", /* 6: cyan    */
+        "#c0bfc0", /* 7: white   */
+        "#5d5163", /* 8: bright black */
+        "#A11825", /* 9: bright red */
+        "#D21B25", /* 10: bright green */
+        "#EF1F27", /* 11: bright yellow */
+        "#F51D28", /* 12: bright blue */
+        "#C92962", /* 13: bright magenta */
+        "#5013A8", /* 14: bright cyan */
+        "#c0bfc0", /* 15: bright white */
         [255] = 0,
         /* more colors can be added after 255 to use with DefaultXX */
-        "#f61e29", /* 1 -> cursor */
-        "#f61e29", /* 1 -> rev cursor*/
-        "#4c0a0d", /* 0 -> bg */
-        "#fef8f8", /* 15 -> fg */
+        "#c0bfc0", /* 15 -> cursor */
+        "#c0bfc0", /* 15 -> rev cursor*/
+        "#030105", /* 0 -> bg */
+        "#c0bfc0", /* 15 -> fg */
 
 };
 
@@ -145,8 +145,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 1;
-unsigned int defaultrcs = 1;
+unsigned int defaultcs = 15;
+unsigned int defaultrcs = 15;
 unsigned int background = 0;
 
 /*
