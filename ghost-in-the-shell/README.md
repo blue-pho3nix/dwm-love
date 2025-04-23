@@ -2,6 +2,7 @@
 
 # Install Ghost in the Shell on Kali
 ![image](https://github.com/user-attachments/assets/85f131dd-9376-4d31-a9dd-f1aee90df9a3)
+![image](https://github.com/user-attachments/assets/814c738b-846c-4162-8ece-a0480e1b0401)
 
 
 ## 1. Install the dependencies for LARB, DWM, and lolcat for the `.zshrc`
