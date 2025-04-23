@@ -98,8 +98,8 @@ My name is `Blue Pho3nix`.
 ---
 
 #### Ghost in the Shell
-![image](https://github.com/user-attachments/assets/02f7fffc-b7cb-4eb9-980a-d1059aef3b28)
 
+![image](https://github.com/user-attachments/assets/0c17f776-9f96-4afb-bf5e-5341a81634b6)
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)
 
 ---
