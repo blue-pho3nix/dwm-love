@@ -1,7 +1,7 @@
 
 
 # Install Ghost in the Shell on Kali
-![image](https://github.com/user-attachments/assets/85f131dd-9376-4d31-a9dd-f1aee90df9a3)
+![image](https://github.com/user-attachments/assets/8373d216-e58b-45d7-9fa7-f3a9b612fa0f)
 ![image](https://github.com/user-attachments/assets/814c738b-846c-4162-8ece-a0480e1b0401)
 
 
