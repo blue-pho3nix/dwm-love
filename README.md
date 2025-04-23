@@ -1,4 +1,4 @@
 # Dotfiles for Ghost in the Shell DWM Rice w/ Alacritty Terminal 
 DWM Love
 
-![image](https://github.com/user-attachments/assets/e8658bb4-563a-4435-84f8-11d05a06d19f)
+![image](https://github.com/user-attachments/assets/136845a7-6cf3-432f-aeb7-0024a0a44a78)
