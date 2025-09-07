@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/gho
 
 ## If you just want the dotfiles, you can get em here:
 
-- [Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/ghost-in-the-shell-alacritty-dotfiles)
+- [dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/ghost-in-the-shell-alacritty-dotfiles)
 
 ```
 git clone -b ghost-in-the-shell-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
