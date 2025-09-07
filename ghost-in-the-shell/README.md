@@ -12,13 +12,13 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 ```
 
 ## 2. Get and run the script
-- This uses Alacritty terminal edit the config at `~/.config/alacritty/alacritty.toml`
+> Note: This uses Alacritty terminal edit the config at `~/.config/alacritty/alacritty.toml`
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-alacritty-terminal.sh && sudo bash ghost-in-the-shell-alacritty-terminal.sh
 ```
 
-## 2. Log out and login using `DWM`
+## 3. Log out and login using `DWM`
 
 ![image](https://github.com/user-attachments/assets/962e46d6-903b-499b-a6b9-9ae2094cf3a4)
 
