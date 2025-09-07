@@ -36,8 +36,7 @@ setbg
 ```
 
 ### Where is my zshrc file?
-- On ST terminal it's in `~/.zshrc`
-- On Alacritty termainal it's in `~/.config/zsh/.zshrc`
+- It's located at `~/.config/zsh/.zshrc`
 
 ### Why am I seeing rainbows?
 Some programs are set to run as `<program> | lolcat`.  
@@ -105,13 +104,6 @@ My name is `Blue Pho3nix`.
 ---
 
 #### Girl Armored Warrior
-##### w/ ST Terminal
-
-![image](https://github.com/user-attachments/assets/4c491e5f-39a9-450a-962d-ec7d461ad2be)
-
-
-##### w/ Alacritty Terminal
-
 ![image](https://github.com/user-attachments/assets/8e510a36-3e80-403f-a6e7-99fb7727d680)
 [link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
 
