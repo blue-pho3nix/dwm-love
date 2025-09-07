@@ -1,5 +1,5 @@
 [window]
-opacity = 0.8
+opacity = 0.6
 dynamic_title = true
 
 [window.padding]
@@ -7,34 +7,38 @@ x = 10
 y = 10
 
 [font]
-size = 12.0
+normal = { family = "monospace", style = "Regular" }
+offset = { x = 0, y = 0 }
+glyph_offset = { x = 0, y = 0 }
+size = 14.0
+
 
 [colors.primary]
-background = "#030105"
-foreground = "#c0bfc0"
+background = "#000000"
+foreground = "#29fffe"
 
 [colors.cursor]
-cursor = "#c0bfc0"
+cursor = "#fe13fa"
 
 [colors.normal]
-black = "#030105"
-red = "#A11825"
-green = "#D21B25"
-yellow ="#EF1F27"
-blue = "#F51D28"
-magenta = "#C92962"
-cyan = "#5013A8"
-white = "#c0bfc0"
+black = "#000000"
+red = "#ef2929"
+green = "#1cfe3c"
+yellow ="#fefe45"
+blue = "#268ad2"
+magenta = "#fe13fa"
+cyan = "#29fffe"
+white = "#c2c1c3"
 
 [colors.bright]
-black = "#5d5163"
-red = "#A11825"
-green = "#D21B25"
-yellow = "#EF1F27"
-blue = "#F51D28"
-magenta = "#C92962"
-cyan = "#5013A8"
-white = "#c0bfc0"
+black = "#808080"
+red = "#ef2929"
+green = "#1cfe3c"
+yellow = "#fefe45"
+blue = "#268ad2"
+magenta = "#fe13fa"
+cyan = "#29fffe"
+white = "#c2c1c3"
 
 [cursor.style]
 shape = "Beam"
