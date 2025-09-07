@@ -21,7 +21,7 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/yuumi-art-revive/yuumi-art-revive-alacritty-terminal-install.sh && sudo bash yuumi-art-revive-alacritty-terminal-install.sh
 ```
 
-## 2. Log out and login using `DWM`
+## 3. Log out and login using `DWM`
 
 ![image](https://github.com/user-attachments/assets/962e46d6-903b-499b-a6b9-9ae2094cf3a4)
 
