@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="darkblood"
+ZSH_THEME="sunrise"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -114,18 +114,6 @@ lol()
 }
 
 COMMANDS=(
-    ls
-    cat
-    fastfetch
-    find
-    lf
-    ps
-    ip
-    msfconsole
-    mysql
-    sqlmap
-    gobuster
-    ffuf
 )
 
 for COMMAND in "${COMMANDS[@]}"; do
@@ -151,7 +139,16 @@ alias m='sudo make clean install'
 alias o='sudo openvpn '
 alias i='sudo apt update && sudo apt install '
 alias ko='sudo killall openvpn'
+alias kr='~/Documents/useful/kiterunner/kr'
+alias jwt_tool='cd ~/Documents/useful/jwt_tool/ && source jwt-env/bin/activate && python3 jwt_tool.py'
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/bin/cron:$PATH
 export PATH=$HOME/.local/bin/statusbar:$PATH
+export PATH=/usr/bin/BurpSuitePro:$PATH
+export PATH=$HOME/.local/share/go/bin:$PATH
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
