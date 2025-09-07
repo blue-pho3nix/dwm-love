@@ -56,6 +56,9 @@ set_shell() {
 }
 
 configure_system() {
+    # Make BurpSuite size fix in DWM executable
+    sudo -u $name chmod +x /home/$name/.local/bin/burpsuite.sh
+	
 	# Make apt colorful
 	sed -i '/#APT::Color "1";/s/#//' /etc/apt/apt.conf.d/99synaptic
 
