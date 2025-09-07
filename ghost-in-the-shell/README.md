@@ -12,7 +12,7 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 ```
 
 ## 2. Get and run the script
-> Note: This uses Alacritty terminal edit the config at `~/.config/alacritty/alacritty.toml`
+> Note: This setup uses the Alacritty terminal. You can customize it by editing `~/.config/alacritty/alacritty.toml`.
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-alacritty-terminal.sh && sudo bash ghost-in-the-shell-alacritty-terminal.sh
