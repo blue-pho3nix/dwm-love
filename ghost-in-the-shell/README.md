@@ -12,14 +12,7 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 ```
 
 ## 2. Get and run the script
-### w/ ST Terminal
-
-```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-st-terminal-install.sh && sudo bash ghost-in-the-shell-st-terminal-install.sh
-```
-
-### w/ Alacritty Terminal
-
+- This uses Alacritty terminal edit the config at `~/.config/alacritty/alacritty.toml`
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/ghost-in-the-shell/ghost-in-the-shell-alacritty-terminal.sh && sudo bash ghost-in-the-shell-alacritty-terminal.sh
@@ -37,13 +30,8 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/gho
 ![image](https://github.com/user-attachments/assets/f32bb50f-72d9-4749-b3c5-def740e9582c)
 
 ## If you just want the dotfiles, you can get em here:
-- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/ghost-in-the-shell-st-dotfiles)
 
-```
-git clone -b ghost-in-the-shell-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
-```
-
-- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/ghost-in-the-shell-alacritty-dotfiles)
+- [Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/ghost-in-the-shell-alacritty-dotfiles)
 
 ```
 git clone -b ghost-in-the-shell-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
