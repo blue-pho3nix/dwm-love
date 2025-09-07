@@ -15,13 +15,7 @@ sudo apt-get update && sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev
 
 ## 2. Get and run the script
 
-### w/ ST Terminal
-
-```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/source-target/source-target-st-terminal.sh && sudo bash source-target-st-terminal.sh
-```
-
-### w/ Alacritty Terminal
+> Note: This setup uses the Alacritty terminal. You can customize it by editing `~/.config/alacritty/alacritty.toml`.
 
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/source-target/source-target-alacritty-terminal.sh && sudo bash source-target-alacritty-terminal.sh
@@ -38,13 +32,8 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/sou
 ![image](https://github.com/user-attachments/assets/35a1a856-4789-4bf9-8c2c-8700093652b9)
 
 ## If you just want the dotfiles, you can get em here:
-- [ST Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/source-target-st-dotfiles)
 
-```
-git clone -b source-target-st-dotfiles https://github.com/blue-pho3nix/dwm-love.git
-```
-
-- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/source-target-alacritty-dotfiles)
+- [dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/source-target-alacritty-dotfiles)
 
 ```
 git clone -b source-target-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
