@@ -21,7 +21,7 @@ sudo apt-get update && sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/source-target/source-target-alacritty-terminal.sh && sudo bash source-target-alacritty-terminal.sh
 ```
 
-## 2. Log out and login using `DWM`
+## 3. Log out and login using `DWM`
 
 ![image](https://github.com/user-attachments/assets/962e46d6-903b-499b-a6b9-9ae2094cf3a4)
 
