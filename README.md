@@ -89,9 +89,11 @@ My name is `Blue Pho3nix`.
 
 ---
 
-#### Maleficent
-![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
-[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)
+#### Nefelibata
+
+![image](https://github.com/user-attachments/assets/da9fbc56-2c66-4447-b3df-132513299f1a)
+![image](https://github.com/user-attachments/assets/51c391f9-3422-486c-89a7-c93b1b26613e)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/blob/main/nefelibata)
 
 ---
 
@@ -103,9 +105,22 @@ My name is `Blue Pho3nix`.
 
 ---
 
+#### Yuumi Art Revive
+
+![image](https://github.com/user-attachments/assets/047ca8f7-3331-4b6a-af16-7c9d5891376c)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/yuumi-art-revive)
+
+---
+
 #### Girl Armored Warrior
 ![image](https://github.com/user-attachments/assets/8e510a36-3e80-403f-a6e7-99fb7727d680)
 [Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
+
+---
+
+#### Maleficent
+![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)---
 
 ---
 
@@ -115,14 +130,4 @@ My name is `Blue Pho3nix`.
 ![image](https://github.com/user-attachments/assets/4a4ba33b-f38f-4e29-a1dd-e0a1f4b3c323)
 [Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/source-target)
 
----
 
-#### Nefelibata
-
-![image](https://github.com/user-attachments/assets/da9fbc56-2c66-4447-b3df-132513299f1a)
-![image](https://github.com/user-attachments/assets/51c391f9-3422-486c-89a7-c93b1b26613e)
-
-#### Yuumi Art Revive
-
-![image](https://github.com/user-attachments/assets/047ca8f7-3331-4b6a-af16-7c9d5891376c)
-[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/yuumi-art-revive)
