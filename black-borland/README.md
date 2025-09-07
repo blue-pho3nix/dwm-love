@@ -10,8 +10,6 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 
 ## 2. Get and run the script
 
-### w/ Alacritty Terminal
-
 ```
 wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-borland/black-borland-alacritty-terminal.sh && sudo bash black-borland-alacritty-terminal.sh
 ```
@@ -29,7 +27,7 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 
 ## If you just want the dotfiles, you can get em here:
 
-- [Alacritty Terminal dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-borland-alacritty-dotfiles)
+- [dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-borland-alacritty-dotfiles)
 
 ```
 git clone -b black-borland-alacritty-dotfiles https://github.com/blue-pho3nix/dwm-love.git
