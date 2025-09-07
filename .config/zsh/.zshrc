@@ -139,16 +139,9 @@ alias m='sudo make clean install'
 alias o='sudo openvpn '
 alias i='sudo apt update && sudo apt install '
 alias ko='sudo killall openvpn'
-alias kr='~/Documents/useful/kiterunner/kr'
-alias jwt_tool='cd ~/Documents/useful/jwt_tool/ && source jwt-env/bin/activate && python3 jwt_tool.py'
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/bin/cron:$PATH
 export PATH=$HOME/.local/bin/statusbar:$PATH
-export PATH=/usr/bin/BurpSuitePro:$PATH
 export PATH=$HOME/.local/share/go/bin:$PATH
 
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
