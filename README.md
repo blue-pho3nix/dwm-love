@@ -85,13 +85,13 @@ My name is `Blue Pho3nix`.
 ### Themes:
 #### Black Borland
 ![image](https://github.com/user-attachments/assets/10538829-32da-47b0-8969-77167a429831)
-[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-borland)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/black-borland)
 
 ---
 
 #### Maleficent
 ![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
-[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)
 
 ---
 
@@ -99,13 +99,13 @@ My name is `Blue Pho3nix`.
 
 ![image](https://github.com/user-attachments/assets/e4518448-6874-4a17-86a3-6054e51aa7e9)
 ![image](https://github.com/user-attachments/assets/e8949de7-1596-4ac4-931c-80fe6ad78e88)
-[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/ghost-in-the-shell)
 
 ---
 
 #### Girl Armored Warrior
 ![image](https://github.com/user-attachments/assets/8e510a36-3e80-403f-a6e7-99fb7727d680)
-[link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/girl-armored-warrior)
 
 ---
 
