@@ -1,4 +1,5 @@
-# Dotfiles for Ghost in the Shell DWM Rice w/ Alacritty Terminal 
+# Dotfiles for Nefelibata DWM Rice w/ Alacritty Terminal 
 DWM Love
 
-![image](https://github.com/user-attachments/assets/136845a7-6cf3-432f-aeb7-0024a0a44a78)
+<img width="1914" height="916" alt="image" src="https://github.com/user-attachments/assets/c64b72f9-acfd-4c74-87b1-a0fb6e84fe64" />
+<img width="1912" height="918" alt="image" src="https://github.com/user-attachments/assets/1c2664cc-d071-415b-806e-76928a17f96e" />
