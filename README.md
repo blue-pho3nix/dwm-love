@@ -120,7 +120,7 @@ My name is `Blue Pho3nix`.
 
 #### Maleficent
 ![image](https://github.com/user-attachments/assets/299d83af-78ff-4fa9-a95c-e8d0ff1fe16e)
-[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)---
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/maleficent)
 
 ---
 
