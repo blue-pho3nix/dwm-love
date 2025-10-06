@@ -1,5 +1,5 @@
 [window]
-opacity = 0.8
+opacity = 0.85
 dynamic_title = true
 
 [window.padding]
@@ -7,34 +7,34 @@ x = 10
 y = 10
 
 [font]
-size = 12.0
+size = 16.0
 
 [colors.primary]
-background = "#000000"
-foreground = "#FFFF4E"
+background = "#01012d"
+foreground = "#89ccff"
 
 [colors.cursor]
-cursor = "#68D4F1"
+cursor = "#89ccff"
 
 [colors.normal]
-black = "#4F4F4F"
-red = "#FF6C60"
-green = "#A8FF60"
-yellow = "#FFFFB6"
-blue = "#96CBFE"
-magenta = "#FF73FD"
-cyan = "#C6C5FE"
-white = "#EEEEEE"
+black = "#01012d"
+red = "#ff4e8d"
+green = "#0071FF"
+yellow = "#ff9800"
+blue = "#0086ff"
+magenta = "#a046ff"
+cyan = "#98f7fd"
+white = "#badfff"
 
 [colors.bright]
-black = "#7C7C7C"
-red = "#FFB6B0"
-green = "#CEFFAC"
-yellow = "#FFFFCC"
-blue = "#B5DCFF"
-magenta = "#FF9CFE"
-cyan = "#DFDFFE"
-white = "#FFFFFF"
+black = "#364579"
+red = "#ff0073"
+green = "#7BC91F"
+yellow = "#ff8c00"
+blue = "#0071FF"
+magenta = "#8c00ff"
+cyan = "#00f2ff"
+white = "#e2f3ff"
 
 [cursor.style]
 shape = "Beam"
