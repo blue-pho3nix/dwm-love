@@ -12,7 +12,7 @@ sudo apt-get update && sudo apt-get install -y gobuster fastfetch lf htop neomut
 > Note: This setup uses the Alacritty terminal. You can customize it by editing `~/.config/alacritty/alacritty.toml`.
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/black-borland/black-borland-alacritty-terminal.sh && sudo bash black-borland-alacritty-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/flower/flower-alacritty-terminal.sh && sudo bash flower-alacritty-terminal.sh
 ```
 
 ## 3. Log out and login using `DWM`
@@ -28,4 +28,4 @@ wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/bla
 
 ## If you just want the dotfiles, you can get em here:
 
-- [dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/black-borland-alacritty-dotfiles)
+- [dotfiles](https://github.com/blue-pho3nix/dwm-love/tree/flower-alacritty-dotfiles)
