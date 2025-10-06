@@ -3,19 +3,29 @@
 # This file runs when a DM logs you into a graphical session.
 # If you use startx/xinit like a Chad, this file will also be sourced.
 
-xrandr --dpi 96		# Set DPI. User may want to use a larger number for larger screens.
-setbg &			# set the background with the `setbg` script
-#xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources & xrdbpid=$!	# Uncomment to use Xresources colors/settings on startup
+export PATH="$HOME/.local/bin:$HOME/.local/bin/statusbar:$PATH"
 
-
+xrandr --dpi 96                # Set DPI. User may want to use a larger number for larger screens.
+setbg &                        # set the background with the `setbg` script
+#xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources & xrdbpid=$!        # Uncomment to use Xresources colors/settings on startup
 
 autostart="dunst diodon unclutter remapd xcompmgr.sh vmware-user burpsuite.sh"
 
 for program in $autostart; do
-	pidof -sx "$program" || "$program" &
+        pidof -sx "$program" || "$program" &
 done >/dev/null 2>&1
 
-(sleep 2 && dwmblocks.sh) &
+(
+    tries=0
+    while [ $tries -lt 20 ]; do
+        if pgrep -x dwm >/dev/null 2>&1; then
+            /usr/bin/setsid /usr/local/bin/dwmblocks >/dev/null 2>&1 &
+            exit 0
+        fi
+        sleep 1
+        tries=$((tries + 1))
+    done
+) &
 
 
 # Ensure that xrdb has finished running before moving on to start the WM/DE.
