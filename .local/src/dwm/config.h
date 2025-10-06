@@ -9,21 +9,21 @@
 /* appearance */
 static unsigned int borderpx  = 1;        /* border pixel of windows */
 static unsigned int snap      = 16;       /* snap pixel */
-static unsigned int gappih    = 15;       /* horiz inner gap between windows */
-static unsigned int gappiv    = 15;       /* vert inner gap between windows */
-static unsigned int gappoh    = 15;       /* horiz outer gap between windows and screen edge */
-static unsigned int gappov    = 15;       /* vert outer gap between windows and screen edge */
+static unsigned int gappih    = 5;       /* horiz inner gap between windows */
+static unsigned int gappiv    = 5;       /* vert inner gap between windows */
+static unsigned int gappoh    = 5;       /* horiz outer gap between windows and screen edge */
+static unsigned int gappov    = 5;       /* vert outer gap between windows and screen edge */
 static int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "NerdFontMono-Regular:size=14", "SymbolsNerdFontMono-Regular:pixelsize=18:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#000000"; // Exterior BG
-static char normbordercolor[]       = "#000000";
-static char normfgcolor[]           = "#FFFF4E";
-static char selfgcolor[]            = "#B5DCFF";
-static char selbordercolor[]        = "#B5DCFF";
-static char selbgcolor[]            = "#000000";
+static char normbgcolor[]           = "#01012d"; // Exterior BG
+static char normbordercolor[]       = "#01012d";
+static char normfgcolor[]           = "#89ccff";
+static char selfgcolor[]            = "#a046ff";
+static char selbordercolor[]        = "#ff4e8d";
+static char selbgcolor[]            = "#01012d";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -43,7 +43,7 @@ static Sp scratchpads[] = {
 };
 
 /* tagging */
-static const char *tags[] = { "󰋑", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "󰩖", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
