@@ -89,6 +89,12 @@ My name is `Blue Pho3nix`.
 
 ---
 
+#### Flower
+![](https://github.com/user-attachments/assets/1862c7c2-e85b-4ee6-88fd-54590d3fef2e)
+[Link to folder](https://github.com/blue-pho3nix/dwm-love/tree/main/flower)
+
+---
+
 #### Nefelibata
 
 ![image](https://github.com/user-attachments/assets/da9fbc56-2c66-4447-b3df-132513299f1a)
