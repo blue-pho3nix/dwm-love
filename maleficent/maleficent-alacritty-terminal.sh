@@ -99,7 +99,7 @@ setup_dwm() {
 
 set_background() {
 	whiptail --infobox "Setting background..." 7 60
-	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/Maleficent01.png
+	sudo -u $name /home/$name/.local/bin/setbg /home/$name/.config/wallpaper/wp12568609.jpg
 }
 
 
