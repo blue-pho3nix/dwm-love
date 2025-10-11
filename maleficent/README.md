@@ -1,6 +1,7 @@
 
 # Install Maleficent on Kali
-![image](https://github.com/user-attachments/assets/9ea8513d-493e-479d-89fe-18c5472625d2)
+<img width="3116" height="1280" alt="image" src="https://github.com/user-attachments/assets/1c864809-e508-4c20-88a9-792b534c0d77" />
+
 
 ## 1. Install the dependencies for LARB, DWM, and lolcat for the `.zshrc`
 > Note: If you get an error stating that a package is missing, change your [Kali Mirror](https://cdimage.kali.org/README?mirrorlist) in `/etc/apt/sources.list`  
