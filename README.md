@@ -1,4 +1,4 @@
 # Dotfiles for Maleficent DWM Rice w/ Alacritty Terminal 
 DWM Love
 
-![](https://github.com/user-attachments/assets/1c4d5187-8015-4b6f-80b3-697d42d0f30e)
+![](https://github.com/user-attachments/assets/14b736ed-7976-4e1d-964f-76679003a447)
