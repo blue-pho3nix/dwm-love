@@ -1,6 +1,6 @@
 
 # Install Maleficent on Kali
-<img width="3116" height="1280" alt="image" src="https://github.com/user-attachments/assets/1c864809-e508-4c20-88a9-792b534c0d77" />
+<img width="3115" height="1279" alt="image" src="https://github.com/user-attachments/assets/cc873710-6b52-40d2-89ea-260ab0fae6ed" />
 
 
 ## 1. Install the dependencies for LARB, DWM, and lolcat for the `.zshrc`
