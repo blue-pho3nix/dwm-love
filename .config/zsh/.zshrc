@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="jaischeema"
+ZSH_THEME="darkblood"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -114,18 +114,7 @@ lol()
 }
 
 COMMANDS=(
-    ls
-    cat
-    fastfetch
-    find
-    lf
-    ps
-    ip
-    msfconsole
-    mysql
-    sqlmap
-    gobuster
-    ffuf
+	msfconsole
 )
 
 for COMMAND in "${COMMANDS[@]}"; do
