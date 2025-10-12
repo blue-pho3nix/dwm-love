@@ -1,4 +1,4 @@
-# Dotfiles for Flower DWM Rice w/ Alacritty Terminal 
+# Dotfiles for Hellboy DWM Rice w/ Alacritty Terminal 
 DWM Love
 
 ![](https://github.com/user-attachments/assets/9ae054ce-c8fc-4b6f-94a7-f1562d27eef2)
