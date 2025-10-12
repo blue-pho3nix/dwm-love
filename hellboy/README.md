@@ -16,7 +16,7 @@ sudo apt-get update && sudo apt-get install -y lolcat libxft-dev libharfbuzz-dev
 > Note: This setup uses the Alacritty terminal. You can customize it by editing `~/.config/alacritty/alacritty.toml`.
 
 ```
-wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/maleficent/maleficent-alacritty-terminal.sh && sudo bash maleficent-alacritty-terminal.sh
+wget https://raw.githubusercontent.com/blue-pho3nix/dwm-love/refs/heads/main/maleficent/hellboy-alacritty-terminal.sh && sudo bash hellboy-alacritty-terminal.sh
 ```
 
 ## 3. Log out and login using `DWM`
