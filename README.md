@@ -1,7 +1,7 @@
 # Kali DWM Love
 
 I made scripts to install various DWM themes on Kali. <br>
-These themes use LARBS: https://github.com/LukeSmithxyz/voidrice <br>
+These themes use LARBS: https://github.com/LukeSmithxyz/voidrice
 
 > [!Note]
 > I use VMware. The `.xprofile` file has settings that make copy paste possible in DWM.<br> 
@@ -39,6 +39,7 @@ Also, if your background image breaks up... you can run:
 ```
 setbg
 ```
+
 ---
 
 ### Where is my zshrc file?
@@ -116,10 +117,12 @@ Add or remove programs under `COMMANDS`.
 ---
 
 ### [Install Yuumi Art Revive](https://github.com/blue-pho3nix/dwm-love/tree/main/yuumi-art-revive)
+> [!Note]
+> Inspiration: https://github.com/xct/kali-clean
 
 ![image](https://github.com/user-attachments/assets/047ca8f7-3331-4b6a-af16-7c9d5891376c)
 
-[Inspiration](https://github.com/xct/kali-clean)
+
 
 ---
 
