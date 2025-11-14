@@ -86,7 +86,10 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
+/* Win / Super */
 #define MODKEY Mod4Mask
+/* Alt */
+#define ALTMOD Mod1Mask   
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
