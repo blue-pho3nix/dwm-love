@@ -1,6 +1,8 @@
 
 
 # Install Yuumi Art Revive on Kali
+> [!Note]
+> Inspiration: https://github.com/xct/kali-clean
 
 ![image](https://github.com/user-attachments/assets/67a1dc77-ce23-4fba-95b4-4a1f7bc01a1f)
 
