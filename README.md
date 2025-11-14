@@ -9,7 +9,6 @@ These themes use LARBS: https://github.com/LukeSmithxyz/voidrice
 
 ## Changes I made to LARBS
 
-- `MOD + j/m` changes the master window size
 - The default web browser is Firefox. This can still be opened with `MOD + w`
 - I didn't install passmenu. So, you can change `MOD + D` to whatever you want.
 - I added `Kick Ass tun0` to the statusbar on most themes. You can change this in `~/.local/bin/statusbar/sb-tun0`
@@ -17,6 +16,73 @@ These themes use LARBS: https://github.com/LukeSmithxyz/voidrice
 --- 
 
 ## Some things you might want to know
+
+### DWM Keybind Cheatsheet (Win + Alt)
+> [!Note]
+> Some peeps can't use the Win key on their keyboards, so I set up the config so you can use either Win or Alt for all keybindings.
+
+#### Window Actions
+| Action                   | Win                 | Alt                 |
+| ------------------------ | ------------------- | ------------------- |
+| Kill window              | Win + Q             | Alt + Q             |
+| Toggle floating          | Win + Shift + Space | Alt + Shift + Space |
+| Fullscreen toggle        | Win + F             | Alt + F             |
+| Zoom (master)            | Win + Space         | Alt + Space         |
+| Move focus (stack)       | Win + J / K         | Alt + J / K         |
+| Push window in stack     | Win + Shift + J / K | Alt + Shift + J / K |
+| Move window with mouse   | Win + LMB           | Alt + LMB           |
+| Resize window with mouse | Win + RMB           | Alt + RMB           |
+
+#### Layouts
+| Layout                   | Win             | Alt             |
+| ------------------------ | --------------- | --------------- |
+| Tile                     | Win + T         | Alt + T         |
+| Bstack                   | Win + Shift + T | Alt + Shift + T |
+| Spiral                   | Win + Y         | Alt + Y         |
+| Dwindle                  | Win + Shift + Y | Alt + Shift + Y |
+| Deck                     | Win + U         | Alt + U         |
+| Monocle                  | Win + Shift + U | Alt + Shift + U |
+| Centered Master          | Win + I         | Alt + I         |
+| Centered Floating Master | Win + Shift + I | Alt + Shift + I |
+
+#### Gaps & Size
+| Action                     | Win             | Alt             |
+| -------------------------- | --------------- | --------------- |
+| Increase gaps              | Win + Z         | Alt + Z         |
+| Decrease gaps              | Win + X         | Alt + X         |
+| Toggle gaps                | Win + A         | Alt + A         |
+| Default gaps               | Win + Shift + A | Alt + Shift + A |
+| Increase master size       | Win + M         | Alt + M         |
+| Decrease master size       | Win + H         | Alt + H         |
+| Increase number of masters | Win + O         | Alt + O         |
+| Decrease master count      | Win + Shift + O | Alt + Shift + O |
+
+#### Workspaces
+| Action                         | Win             | Alt             |
+| -------------------------------| --------------- | --------------- |
+| View workspace (1–9)           | Win + #         | Alt + #         |
+| Move window to workspace       | Win + Shift + # | Alt + Shift + # |
+| View all workspaces            | Win + 0         | Alt + 0         |
+| Move window to all workspaces  | Win + Shift + 0 | Alt + Shift + 0 |
+| Previous workspace             | Win + G         | Alt + G         |
+| Next workspace                 | Win + ;         | Alt + ;         |
+| Shift window to prev workspace | Win + Shift + G | Alt + Shift + G |
+| Shift window to next workspace | Win + Shift + ; | Alt + Shift + ; |
+
+#### Open Apps
+| Application           | Win             | Alt             |
+| --------------------- | --------------- | --------------- |
+| Dmenu                 | Win + D         | Alt + D         |
+| Power Options         | Win + Return    | Alt + Return    |
+| Terminal              | Win + Enter     | Alt + Enter     |
+| Browser               | Win + W         | Alt + W         |
+| Network (nmtui)       | Win + Shift + W | Alt + Shift + W |
+| File manager (thunar) | Win + R         | Alt + R         |
+| nvim                  | Win + N         | Alt + N         |
+
+There are other mods you can mess with/change in `~/.local/src/dwm/config.h`
+
+---
 
 ### You can [change the heart/fire icon](https://www.nerdfonts.com/cheat-sheet) in the status bar in `~/.local/src/dwm/config.h`.
 1. After you make any changes run the following:
