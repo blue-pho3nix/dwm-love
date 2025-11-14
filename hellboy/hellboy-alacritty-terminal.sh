@@ -10,15 +10,6 @@ export TERM=ansi
 
 ### FUNCTIONS ###
 
-installpkg() {
-	apt-get install -y "$1" >/dev/null 2>&1
-}
-
-error() {
-	printf "%s\n" "$1" >&2
-	exit 1
-}
-
 welcomemsg() {
 	whiptail --title "Welcome!" --msgbox "Welcome to the Kali Hellboy Installer!\\n\\nThis script will install a pre-configured desktop environment with essential tools." 10 60
 }
@@ -118,7 +109,6 @@ finalize() {
 
 welcomemsg
 getuserandpass
-installbase
 adduserandpass
 clone_dotfiles
 set_shell
